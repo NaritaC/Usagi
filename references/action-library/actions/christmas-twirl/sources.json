@@ -1,0 +1,40 @@
+{
+  "id": "U078",
+  "key": "christmas-twirl",
+  "title": "圣诞装转身摇摆",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U078-01",
+      "source_page": "https://tenor.com/view/chiikawa-chiikawa-christmas-christmas-anime-cute-gif-7704487253968601293",
+      "download_url": "https://media1.tenor.com/m/auvWVl1SwM0AAAAC/chiikawa-chiikawa-christmas.gif",
+      "width": 308,
+      "height": 308,
+      "frames": 15,
+      "duration_seconds": 1.5,
+      "sha256": "9b932b95a2e244695a60746306e73cb2bc9c72c5f9a9e86d9a9e6d97524f8543",
+      "source_title": "Chiikawa Chiikawa Christmas GIF - Chiikawa Chiikawa christmas Christmas - Discover & Share GIFs",
+      "title": "圣诞装转身摇摆",
+      "group": "服装与形态",
+      "description": "穿红色圣诞服、拿条纹糖杖，转过背面再回头，身体左右扭摆。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "下半身被裁切，圣诞帽和糖杖需与身体分层。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 15,
+      "bytes": 728420,
+      "action_key": "christmas-twirl",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-080",
+      "file": "actions/christmas-twirl/U078-01.gif",
+      "poster": "actions/christmas-twirl/U078-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

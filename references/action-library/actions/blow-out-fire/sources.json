@@ -1,0 +1,42 @@
+{
+  "id": "U036",
+  "key": "blow-out-fire",
+  "title": "吹灭烤物火焰",
+  "group": "互动与小动作",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U036-01",
+      "source_page": "https://www.sigstick.com/pack/jr0FZEfogF8OurQ8ZcVg-chiikawa-usagi",
+      "source_title": "Chiikawa Usagi",
+      "download_url": "https://cdn2.cdnstep.com/jr0FZEfogF8OurQ8ZcVg/10-1.png",
+      "width": 201,
+      "height": 201,
+      "frames": 55,
+      "duration_seconds": 3.84,
+      "sha256": "29b323b84cc28005e0fb4b30e94dd4db29a47e02b0f5b0d88015311cabeb96e9",
+      "format": "GIF",
+      "title": "吹灭烤物火焰",
+      "group": "互动与小动作",
+      "description": "拿着串起的烤物靠近面前，向着火焰吹气，火焰熄灭后露出烤物。",
+      "redraw_notes": "有道具特写与角色近景切换；面部、呼气线和火焰适合分别控制。",
+      "body_visibility": "partial",
+      "camera_motion": "moving",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\S11-allframes.jpg",
+      "format_note": "远程URL以.png结尾，实际内容经文件头和解码确认是GIF；本地副本改用.gif后缀，字节不变。",
+      "action_key": "blow-out-fire",
+      "review_status": "待用户确认",
+      "candidate_id": "GD-S11",
+      "file": "actions/blow-out-fire/U036-01.gif",
+      "poster": "actions/blow-out-fire/U036-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 597534,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

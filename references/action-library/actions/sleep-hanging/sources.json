@@ -1,0 +1,40 @@
+{
+  "id": "U046",
+  "key": "sleep-hanging",
+  "title": "倒挂睡觉",
+  "group": "睡眠与休息",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U046-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-sleep-sleeping-upside-down-gif-5201287812520982534",
+      "download_url": "https://media1.tenor.com/m/SC6vtTfhuAYAAAAC/chiikawa-usagi.gif",
+      "width": 266,
+      "height": 252,
+      "frames": 40,
+      "duration_seconds": 1.33,
+      "sha256": "ff183cb68b5763ec4c4232ba0e8e9c1a245e3dee76214b5348eb27cdf2c32d5a",
+      "source_title": "Chiikawa Usagi GIF - Chiikawa Usagi Sleep - Discover & Share GIFs",
+      "title": "倒挂睡觉",
+      "group": "睡眠与休息",
+      "description": "头朝下、耳朵垂下地倒挂着，闭眼吹出一涨一缩的鼻泡。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "上半截身体裁切且画面较暗；需要补全身体并单独处理鼻泡。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 38,
+      "bytes": 114248,
+      "action_key": "sleep-hanging",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-069",
+      "file": "actions/sleep-hanging/U046-01.gif",
+      "poster": "actions/sleep-hanging/U046-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "闭眼睡眠期间不强行睁眼跟随；唤醒后渐进恢复。",
+  "production_status": "动作参考，尚未重绘分层"
+}

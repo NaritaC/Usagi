@@ -1,0 +1,40 @@
+{
+  "id": "U030",
+  "key": "group-jump",
+  "title": "三人轮流跳起",
+  "group": "舞蹈与嬉戏",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U030-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-hachiware-chii-kawa-kawaii-gif-12638242408962543069",
+      "download_url": "https://media1.tenor.com/m/r2QOgrt9Td0AAAAC/chiikawa-usagi.gif",
+      "width": 480,
+      "height": 327,
+      "frames": 12,
+      "duration_seconds": 3.96,
+      "sha256": "641f06e41c72ac9a172e7174cf43aed31d114ce1dd37f317ad2829c8cae5ea93",
+      "source_title": "Chiikawa Usagi GIF - Chiikawa Usagi Hachiware - Discover & Share GIFs",
+      "title": "三人轮流跳起",
+      "group": "舞蹈与嬉戏",
+      "description": "与伙伴并排，三人交错起跳和落地，乌萨奇有清楚的腾空和落地姿态。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "浅色背景、身体完整；可单独取乌萨奇一侧的动作。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 12,
+      "bytes": 203358,
+      "action_key": "group-jump",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-084",
+      "file": "actions/group-jump/U030-01.gif",
+      "poster": "actions/group-jump/U030-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

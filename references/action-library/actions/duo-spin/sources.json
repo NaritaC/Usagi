@@ -1,0 +1,40 @@
+{
+  "id": "U029",
+  "key": "duo-spin",
+  "title": "双人转圈舞",
+  "group": "舞蹈与嬉戏",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U029-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-anime-cute-adorable-gif-3545717337234443749",
+      "download_url": "https://media1.tenor.com/m/MTTrIdfNjeUAAAAC/chiikawa-usagi.gif",
+      "width": 498,
+      "height": 301,
+      "frames": 140,
+      "duration_seconds": 14.0,
+      "sha256": "5f14164dd5cfbe523b0f792cf15982e1c7908993755e54aa97ceb3b8f0819545",
+      "source_title": "Chiikawa Usagi GIF - Chiikawa Usagi Anime - Discover & Share GIFs",
+      "title": "双人转圈舞",
+      "group": "舞蹈与嬉戏",
+      "description": "与吉伊并排踩步，交换前后位置并转身绕圈，再回到并排。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "白底且全身完整；转圈中有互相遮挡，需补全背面。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 140,
+      "bytes": 4298269,
+      "action_key": "duo-spin",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-031",
+      "file": "actions/duo-spin/U029-01.gif",
+      "poster": "actions/duo-spin/U029-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

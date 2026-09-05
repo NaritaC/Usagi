@@ -19,7 +19,8 @@
     "frames": 45,
     "has_audio": false,
     "duration_seconds": 1.88,
-    "distinct_frames": 45
+    "distinct_frames": 45,
+    "user_review": "accepted"
   },
   {
     "id": "02",
@@ -40,7 +41,8 @@
     "frames": 14,
     "has_audio": false,
     "duration_seconds": 1.4,
-    "distinct_frames": 14
+    "distinct_frames": 14,
+    "user_review": "accepted"
   },
   {
     "id": "03",
@@ -60,7 +62,8 @@
     "frames": 62,
     "has_audio": false,
     "duration_seconds": 1.86,
-    "distinct_frames": 62
+    "distinct_frames": 62,
+    "user_review": "accepted"
   },
   {
     "id": "04",
@@ -80,7 +83,8 @@
     "frames": 31,
     "has_audio": false,
     "duration_seconds": 2.07,
-    "distinct_frames": 31
+    "distinct_frames": 31,
+    "user_review": "rejected"
   },
   {
     "id": "05",
@@ -104,7 +108,8 @@
       "file": "media/05-voice-poster.jpg",
       "extracted_at_seconds": 1.8,
       "sha256": "0a7c978c680093c430021f39b053d305b23916f48b902d565e875a23a54def12"
-    }
+    },
+    "user_review": "rejected"
   },
   {
     "id": "06",
@@ -126,7 +131,8 @@
     "frames": 15,
     "has_audio": false,
     "duration_seconds": 1.5,
-    "distinct_frames": 15
+    "distinct_frames": 15,
+    "user_review": "accepted"
   },
   {
     "id": "07",
@@ -148,7 +154,8 @@
     "frames": 30,
     "has_audio": false,
     "duration_seconds": 3.0,
-    "distinct_frames": 30
+    "distinct_frames": 30,
+    "user_review": "accepted"
   },
   {
     "id": "08",
@@ -170,7 +177,8 @@
     "frames": 56,
     "has_audio": false,
     "duration_seconds": 2.33,
-    "distinct_frames": 56
+    "distinct_frames": 56,
+    "user_review": "accepted"
   },
   {
     "id": "09",
@@ -192,7 +200,8 @@
     "frames": 36,
     "has_audio": false,
     "duration_seconds": 1.08,
-    "distinct_frames": 36
+    "distinct_frames": 36,
+    "user_review": "accepted"
   },
   {
     "id": "10",
@@ -214,6 +223,7 @@
     "frames": 15,
     "has_audio": false,
     "duration_seconds": 1.5,
-    "distinct_frames": 15
+    "distinct_frames": 15,
+    "user_review": "rejected"
   }
 ]

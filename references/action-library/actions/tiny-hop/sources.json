@@ -1,0 +1,40 @@
+{
+  "id": "U035",
+  "key": "tiny-hop",
+  "title": "小步蹦跳",
+  "group": "舞蹈与嬉戏",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745570859056-yexzwoz4fbk.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 3 页",
+      "id": "U035-01",
+      "sha256": "9b460cc95b3bd744ce2cafd0be024e1c4837633adcc216fd9baae566ab259d88",
+      "width": 360,
+      "height": 360,
+      "frames": 17,
+      "format": "GIF",
+      "bytes": 321975,
+      "duration_seconds": 0.84,
+      "distinct_frames": 16,
+      "group": "舞蹈与嬉戏",
+      "action_key": "tiny-hop",
+      "title": "小步蹦跳",
+      "description": "面对镜头小幅蹦跳，耳朵和手臂跟随上下摆动。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "已有透明背景，但眼睛仍嵌在头部；需要眼部和手臂分层。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G055",
+      "file": "actions/tiny-hop/U035-01.gif",
+      "poster": "actions/tiny-hop/U035-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

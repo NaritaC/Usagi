@@ -1,0 +1,40 @@
+{
+  "id": "U057",
+  "key": "bend-eat",
+  "title": "趴低在盘边吃东西",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1746973723894-31wtqaqsqpy.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 6 页",
+      "id": "U057-01",
+      "sha256": "2c3b23946f7ac3d168645c49bcaf88f43a2f6feb85ab22cb39b2725517eef33d",
+      "width": 220,
+      "height": 124,
+      "frames": 31,
+      "format": "GIF",
+      "bytes": 66608,
+      "duration_seconds": 3.1,
+      "distinct_frames": 31,
+      "group": "进食与喝水",
+      "action_key": "bend-eat",
+      "title": "趴低在盘边吃东西",
+      "description": "身体压低到盘边，再稍微抬起头。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "宽景中角色很小；需要重画清晰轮廓，移除其他角色。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G068",
+      "file": "actions/bend-eat/U057-01.gif",
+      "poster": "actions/bend-eat/U057-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

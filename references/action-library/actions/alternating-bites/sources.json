@@ -1,0 +1,41 @@
+{
+  "id": "U056",
+  "key": "alternating-bites",
+  "title": "双手交替进食",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U056-01",
+      "source_page": "https://gifdb.com/gif/cartoon-rabbit-eating-food-j5stnuheqi01tjid.html",
+      "source_title": "Cartoon Rabbit Eating Food GIF",
+      "download_url": "https://gifdb.com/images/branded/high/cartoon-rabbit-eating-food-j5stnuheqi01tjid.gif",
+      "width": 266,
+      "height": 266,
+      "frames": 22,
+      "duration_seconds": 2.2,
+      "sha256": "2a4fe57fa9d82fb1ecc84b4adb37337eee994e5e9bdae526940814270106415e",
+      "format": "GIF",
+      "title": "双手交替进食",
+      "group": "进食与喝水",
+      "description": "两手各拿一份浅色食物，轮流送到嘴边，头部随动作轻轻倾斜。",
+      "redraw_notes": "全身基本完整，右侧地面有其他道具边缘；保留原站水印。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\G06-allframes.jpg",
+      "action_key": "alternating-bites",
+      "review_status": "待用户确认",
+      "candidate_id": "GD-G06",
+      "file": "actions/alternating-bites/U056-01.gif",
+      "poster": "actions/alternating-bites/U056-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 702433,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

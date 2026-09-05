@@ -1,0 +1,40 @@
+{
+  "id": "U042",
+  "key": "peek-behind-friend",
+  "title": "从同伴身后探头",
+  "group": "互动与小动作",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424410379-e5umipwxa3p.webp",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 2 页",
+      "id": "U042-01",
+      "sha256": "6988b6c4cc097bae0697d67cf0338447203f59129172c62eebd3b3775a793cab",
+      "width": 400,
+      "height": 400,
+      "frames": 39,
+      "format": "WEBP",
+      "bytes": 263672,
+      "duration_seconds": 1.63,
+      "distinct_frames": 39,
+      "group": "互动与小动作",
+      "action_key": "peek-behind-friend",
+      "title": "从同伴身后探头",
+      "description": "站在同伴身后，伸手并探出头张嘴。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "其他角色遮挡大部分身体；需重画手、身体和腿脚。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G030",
+      "file": "actions/peek-behind-friend/U042-01.webp",
+      "poster": "actions/peek-behind-friend/U042-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

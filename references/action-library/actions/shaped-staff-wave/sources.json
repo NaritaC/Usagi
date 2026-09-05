@@ -1,0 +1,42 @@
+{
+  "id": "U025",
+  "key": "shaped-staff-wave",
+  "title": "持造型杖跳起挥动",
+  "group": "挥棒与道具",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U025-01",
+      "source_page": "https://www.sigstick.com/pack/jr0FZEfogF8OurQ8ZcVg-chiikawa-usagi",
+      "source_title": "Chiikawa Usagi",
+      "download_url": "https://cdn2.cdnstep.com/jr0FZEfogF8OurQ8ZcVg/18-1.png",
+      "width": 166,
+      "height": 166,
+      "frames": 37,
+      "duration_seconds": 2.59,
+      "sha256": "83ebd8e2f9db6979f5b04b7b8d93fdd58ee5c77a0a30d6f8878c69df3722666b",
+      "format": "GIF",
+      "title": "持造型杖跳起挥动",
+      "group": "挥棒与道具",
+      "description": "一手拿着骷髅头造型杖跳起，在空中改变杖的方向，落地后重新举起。",
+      "redraw_notes": "跳跃最高处耳朵出画，杖头偶尔靠近画面边缘；不是黄色讨伐棒。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\S19-allframes.jpg",
+      "format_note": "远程URL以.png结尾，实际内容经文件头和解码确认是GIF；本地副本改用.gif后缀，字节不变。",
+      "action_key": "shaped-staff-wave",
+      "review_status": "待用户确认",
+      "candidate_id": "GD-S19",
+      "file": "actions/shaped-staff-wave/U025-01.gif",
+      "poster": "actions/shaped-staff-wave/U025-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 334935,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

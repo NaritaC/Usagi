@@ -1,0 +1,40 @@
+{
+  "id": "U073",
+  "key": "stretch-sticky-food",
+  "title": "拉长黏食再咬断",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U073-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-marshmallow-stretch-eating-gif-6914375718740571268",
+      "download_url": "https://media1.tenor.com/m/X_TMFQ8eNIQAAAAC/chiikawa-usagi.gif",
+      "width": 498,
+      "height": 412,
+      "frames": 24,
+      "duration_seconds": 2.4,
+      "sha256": "b6d2928b310f008786573440ca9756ea6916f0a6b44a2cb5bb23a373078eb0bc",
+      "source_title": "Chiikawa Usagi GIF - Chiikawa Usagi Marshmallow - Discover & Share GIFs",
+      "title": "拉长黏食再咬断",
+      "group": "进食与喝水",
+      "description": "嘴含点心后向后仰，把黏连部分拉成长条，再收回继续吃。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "另一角色与食物接近；食物拉丝与嘴部需独立控制。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 24,
+      "bytes": 396781,
+      "action_key": "stretch-sticky-food",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-115",
+      "file": "actions/stretch-sticky-food/U073-01.gif",
+      "poster": "actions/stretch-sticky-food/U073-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

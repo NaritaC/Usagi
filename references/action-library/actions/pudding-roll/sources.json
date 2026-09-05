@@ -1,0 +1,48 @@
+{
+  "id": "U022",
+  "key": "pudding-roll",
+  "title": "布丁上跳起仰躺滚动再起身",
+  "group": "贴地与翻滚",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U022-01",
+      "source_page": "https://gifdb.com/gif/cartoon-rabbit-standing-on-pudding-pkpe91yb60dkkgkv.html",
+      "source_title": "Cartoon Rabbit Standing On Pudding GIF",
+      "download_url": "https://gifdb.com/images/branded/high/cartoon-rabbit-standing-on-pudding-pkpe91yb60dkkgkv.gif",
+      "width": 444,
+      "height": 498,
+      "frames": 143,
+      "duration_seconds": 7.13,
+      "sha256": "a94de84980c4f10706e1019f48b1b4fba3c4bcf29ac58c765e7d40831dc66760",
+      "format": "GIF",
+      "title": "布丁上跳起仰躺滚动再起身",
+      "group": "贴地与翻滚",
+      "description": "站在布丁表面跳起转背，落下后仰躺并左右滚动，再撑起恢复站立。",
+      "redraw_notes": "全身始终可见，镜头固定，但角色很小；布丁形变与身体需分别重绘。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\G21-allframes.jpg",
+      "action_key": "pudding-roll",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://tenor.com/view/hachi-ware-hachiware-cute-silly-chiikawa-pocket-gif-6748707234801037724",
+          "download_url": "https://media1.tenor.com/m/Xag5eU9ssZwAAAAC/hachi-ware-hachiware.gif",
+          "candidate_id": "tenor-106"
+        }
+      ],
+      "candidate_id": "GD-G21",
+      "file": "actions/pudding-roll/U022-01.gif",
+      "poster": "actions/pudding-roll/U022-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 6947916,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "快速翻转或形变期间减弱/暂停瞳孔追踪，恢复稳定姿态后自然回看鼠标。",
+  "production_status": "动作参考，尚未重绘分层"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "U006",
+  "key": "run-approach",
+  "title": "迎面跑来",
+  "group": "跑动与移动",
+  "approved": true,
+  "assets": [
+    {
+      "id": "U006-01",
+      "title": "迎面跑来",
+      "note": "从远处跑近，身体上下起伏。可观察步子、耳朵与身体的节奏。",
+      "source_page": "https://usagi-project.vercel.app/",
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745571172539-5p600cbbo96.gif",
+      "source_type": "用户上传/第三方合集，官方原片出处尚未逐一核验",
+      "downloaded_on": "2026-09-06",
+      "bytes": 474290,
+      "sha256": "9a2eb2de8ae4e0b2ea720f970eff1471312d44b725cd16cfb019df6f63c5492b",
+      "source_location": "最受欢迎排序，第 2 页（本次访问时）",
+      "format": "GIF",
+      "width": 640,
+      "height": 640,
+      "frames": 15,
+      "has_audio": false,
+      "duration_seconds": 1.5,
+      "distinct_frames": 15,
+      "round01_id": "06",
+      "action_key": "run-approach",
+      "group": "跑动与移动",
+      "description": "沿小路从远处跑向镜头，身体上下弹动。",
+      "review_status": "用户已认可",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "角色尺寸随距离变化；桌宠需重画为尺寸稳定的跑步循环。",
+      "alternative_sources": [
+        {
+          "source_page": "https://usagi-project.vercel.app/",
+          "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745571172539-5p600cbbo96.gif",
+          "candidate_id": "G037"
+        }
+      ],
+      "candidate_id": "R1-06",
+      "file": "actions/run-approach/U006-01.gif",
+      "poster": "actions/run-approach/U006-01-preview.jpg"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

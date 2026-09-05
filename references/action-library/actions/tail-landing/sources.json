@@ -1,0 +1,42 @@
+{
+  "id": "U015",
+  "key": "tail-landing",
+  "title": "跃下并以尾部落地",
+  "group": "跑动与移动",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U015-01",
+      "source_page": "https://www.sigstick.com/pack/jr0FZEfogF8OurQ8ZcVg-chiikawa-usagi",
+      "source_title": "Chiikawa Usagi",
+      "download_url": "https://cdn2.cdnstep.com/jr0FZEfogF8OurQ8ZcVg/0-1.png",
+      "width": 225,
+      "height": 225,
+      "frames": 31,
+      "duration_seconds": 2.06,
+      "sha256": "4347d588927995e0fbb9986ef39977b77004440f4473cd9f4cae2956e0b24275",
+      "format": "GIF",
+      "title": "跃下并以尾部落地",
+      "group": "跑动与移动",
+      "description": "从半空下落，镜头切到落地点，尾部先压到棕色表面并形成裂纹。",
+      "redraw_notes": "前半段全身、后半段切到尾部特写；需要补全落地时头和四肢。",
+      "body_visibility": "partial",
+      "camera_motion": "moving",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\S01-allframes.jpg",
+      "format_note": "远程URL以.png结尾，实际内容经文件头和解码确认是GIF；本地副本改用.gif后缀，字节不变。",
+      "action_key": "tail-landing",
+      "review_status": "待用户确认",
+      "candidate_id": "GD-S01",
+      "file": "actions/tail-landing/U015-01.gif",
+      "poster": "actions/tail-landing/U015-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 398227,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

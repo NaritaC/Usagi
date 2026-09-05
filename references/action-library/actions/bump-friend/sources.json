@@ -1,0 +1,40 @@
+{
+  "id": "U037",
+  "key": "bump-friend",
+  "title": "转身冲撞伙伴",
+  "group": "互动与小动作",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U037-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-chiikawa-usagi-chiikawa-falling-chiikawa-hug-gif-11565068919330036149",
+      "download_url": "https://media1.tenor.com/m/oH9g6GOT2bUAAAAC/chiikawa-usagi.gif",
+      "width": 498,
+      "height": 281,
+      "frames": 52,
+      "duration_seconds": 3.47,
+      "sha256": "110a72aefc9a1bfbf99e75ac4cc2c1781ac662a0a8f74d49925f78fd8293c91f",
+      "source_title": "Chiikawa Usagi GIF - Chiikawa Usagi Chiikawa usagi - Discover & Share GIFs",
+      "title": "转身冲撞伙伴",
+      "group": "互动与小动作",
+      "description": "背对镜头等待，突然转身向前冲，与吉伊相撞后站稳。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "两角色碰撞时重叠；冲撞中间有明显残影。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 52,
+      "bytes": 1317653,
+      "action_key": "bump-friend",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-023",
+      "file": "actions/bump-friend/U037-01.gif",
+      "poster": "actions/bump-friend/U037-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

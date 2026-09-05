@@ -1,0 +1,40 @@
+{
+  "id": "U012",
+  "key": "run-circles",
+  "title": "绕着伙伴跑圈",
+  "group": "跑动与移动",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U012-01",
+      "source_page": "https://tenor.com/view/chiikawa-hachiware-usagi-flower-field-picking-flowers-gif-15141502284858656155",
+      "download_url": "https://media1.tenor.com/m/0iFsGt7EBZsAAAAC/chiikawa-hachiware.gif",
+      "width": 498,
+      "height": 269,
+      "frames": 29,
+      "duration_seconds": 2.9,
+      "sha256": "8b43936a41384b940572d17f13a074e0f6c9bafbed70ec6a9e20450ea7cb53ca",
+      "source_title": "Chiikawa Hachiware GIF - Chiikawa Hachiware Usagi - Discover & Share GIFs",
+      "title": "绕着伙伴跑圈",
+      "group": "跑动与移动",
+      "description": "绕吉伊和小八跑动，连续经过前景和两侧，身体随跑动转向。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "跑到伙伴后方时发生遮挡；应将桌面移动轨迹与动作循环分开。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 29,
+      "bytes": 487664,
+      "action_key": "run-circles",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-090",
+      "file": "actions/run-circles/U012-01.gif",
+      "poster": "actions/run-circles/U012-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "U061",
+  "key": "cup-noodles",
+  "title": "抱杯吸面",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U061-01",
+      "source_page": "https://www.sigstick.com/pack/jr0FZEfogF8OurQ8ZcVg-chiikawa-usagi",
+      "source_title": "Chiikawa Usagi",
+      "download_url": "https://cdn2.cdnstep.com/jr0FZEfogF8OurQ8ZcVg/19-1.png",
+      "width": 362,
+      "height": 362,
+      "frames": 42,
+      "duration_seconds": 1.39,
+      "sha256": "eb5894ca92fbe059c8717d243529ac948ba9b5182d86f2e7b41cef421edef496",
+      "format": "GIF",
+      "title": "抱杯吸面",
+      "group": "进食与喝水",
+      "description": "坐着一手拿杯状面碗，另一手夹起面条连续送入口中。",
+      "redraw_notes": "下方坐姿与杯碗相接，右侧有同伴边缘；可拆分手臂、面条与容器。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\S20-allframes.jpg",
+      "format_note": "远程URL以.png结尾，实际内容经文件头和解码确认是GIF；本地副本改用.gif后缀，字节不变。",
+      "action_key": "cup-noodles",
+      "review_status": "待用户确认",
+      "candidate_id": "GD-S20",
+      "file": "actions/cup-noodles/U061-01.gif",
+      "poster": "actions/cup-noodles/U061-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 659748,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

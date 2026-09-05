@@ -1,0 +1,40 @@
+{
+  "id": "U085",
+  "key": "pajama-step",
+  "title": "睡衣抖身小步",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U085-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-chiikawa-kawaii-gif-15092242269655872450",
+      "download_url": "https://media1.tenor.com/m/0XJqYdL5M8IAAAAC/chiikawa-usagi-chiikawa.gif",
+      "width": 498,
+      "height": 496,
+      "frames": 21,
+      "duration_seconds": 1.26,
+      "sha256": "286b0cfa3455b5374315d693d4a80728277fa1d34f46e7668b2755fbc05d8e85",
+      "source_title": "Chiikawa Usagi Chiikawa GIF - Chiikawa Usagi chiikawa Kawaii - Discover & Share GIFs",
+      "title": "睡衣抖身小步",
+      "group": "服装与形态",
+      "description": "穿着黄色带帽睡衣，身体左右轻摆并小幅挪动双脚。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "498像素，头身完整；与更大幅度睡衣舞分别记录。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 19,
+      "bytes": 520882,
+      "action_key": "pajama-step",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-065",
+      "file": "actions/pajama-step/U085-01.gif",
+      "poster": "actions/pajama-step/U085-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

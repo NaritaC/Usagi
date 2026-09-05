@@ -1,0 +1,40 @@
+{
+  "id": "U045",
+  "key": "thumbs-up",
+  "title": "侧身竖拇指",
+  "group": "互动与小动作",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424346359-9y2da2tz0z.webp",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 2 页",
+      "id": "U045-01",
+      "sha256": "e447b0d0298b892c6aa9d28a88fcd86d657829aee189013804c13179c74bfcee",
+      "width": 800,
+      "height": 800,
+      "frames": 11,
+      "format": "WEBP",
+      "bytes": 122342,
+      "duration_seconds": 0.88,
+      "distinct_frames": 11,
+      "group": "互动与小动作",
+      "action_key": "thumbs-up",
+      "title": "侧身竖拇指",
+      "description": "侧脸看向前方，手指抬起做肯定手势。",
+      "body_visibility": "closeup",
+      "camera_motion": "fixed",
+      "redraw_notes": "半张脸和身体被裁切；重画手势与全身姿势。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G035",
+      "file": "actions/thumbs-up/U045-01.webp",
+      "poster": "actions/thumbs-up/U045-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

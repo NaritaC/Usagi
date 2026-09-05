@@ -1,0 +1,18 @@
+{
+  "gallery_pages": 7,
+  "gallery_items_seen": 325,
+  "gif_webp_candidates_downloaded": 70,
+  "png_headers_checked": 130,
+  "additional_animated_png_found": 0,
+  "tenor_candidates_reviewed": 121,
+  "gifdb_sigstick_candidates_downloaded": 50,
+  "selected_actions": 91,
+  "selected_files": 97,
+  "exact_and_visual_duplicates_merged": 27,
+  "boundaries": "本轮为有限来源的扩大搜集，未声称覆盖全网。动画经过解码和多时间点目视筛选；外部合集的官方原集出处未逐一核验。",
+  "known_gaps": [
+    "未找到明确持黄色长棒持续跑步的单独片段。",
+    "贴地挪动已有低清跟拍参考，干净稳定侧视滑行仍需重绘/补参考。",
+    "叉腰发哈的准确动作与声音仍未确认。"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "U070",
+  "key": "lick-plate",
+  "title": "低头舔盘子",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424348111-0g8iwnr94zqg.webp",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 1 页",
+      "id": "U070-01",
+      "sha256": "45bd9f0035c0142d64c3696507971f42ed160db134e5ed716a48004f706e9192",
+      "width": 799,
+      "height": 799,
+      "frames": 13,
+      "format": "WEBP",
+      "bytes": 353328,
+      "duration_seconds": 1.04,
+      "distinct_frames": 13,
+      "group": "进食与喝水",
+      "action_key": "lick-plate",
+      "title": "低头舔盘子",
+      "description": "低头靠近盘子，用舌头舔食，再轻轻抬起。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "盘子遮挡下半身；舌头、双手、盘子分层。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G020",
+      "file": "actions/lick-plate/U070-01.webp",
+      "poster": "actions/lick-plate/U070-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

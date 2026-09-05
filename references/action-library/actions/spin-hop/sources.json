@@ -1,0 +1,40 @@
+{
+  "id": "U032",
+  "key": "spin-hop",
+  "title": "原地蹦跳转圈",
+  "group": "舞蹈与嬉戏",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U032-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-happy-joyful-spinning-gif-1388488464885953637",
+      "download_url": "https://media1.tenor.com/m/E0Tm5vxBNGUAAAAC/chiikawa-usagi.gif",
+      "width": 358,
+      "height": 358,
+      "frames": 18,
+      "duration_seconds": 1.8,
+      "sha256": "b0a91b7faed21b066cff34b28ef7c967de71ea36e1e2d0264fa2fbffc6916572",
+      "source_title": "Chiikawa Usagi GIF - Chiikawa Usagi Happy - Discover & Share GIFs",
+      "title": "原地蹦跳转圈",
+      "group": "舞蹈与嬉戏",
+      "description": "跳起后连续改变朝向，正面、侧面和背面交替，落地继续旋转。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "全身清晰，适合作为转向和原地嬉戏的连续动作参考。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 18,
+      "bytes": 331101,
+      "action_key": "spin-hop",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-089",
+      "file": "actions/spin-hop/U032-01.gif",
+      "poster": "actions/spin-hop/U032-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

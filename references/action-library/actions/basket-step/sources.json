@@ -1,0 +1,40 @@
+{
+  "id": "U075",
+  "key": "basket-step",
+  "title": "戴帽抱篮踩步",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U075-01",
+      "source_page": "https://tenor.com/view/usagi-chiikawa-bouncy-gif-16414967401926112086",
+      "download_url": "https://media1.tenor.com/m/482t4b9sM1YAAAAC/usagi-chiikawa.gif",
+      "width": 360,
+      "height": 360,
+      "frames": 29,
+      "duration_seconds": 3.07,
+      "sha256": "6ca0319eb5eb8e342c2456909e5cefaf57c1a7efa8ebd4d19d774baf7681ef80",
+      "source_title": "Usagi Chiikawa Sticker - Usagi Chiikawa Bouncy - Discover & Share GIFs",
+      "title": "戴帽抱篮踩步",
+      "group": "服装与形态",
+      "description": "戴绿色帽子、双手抱篮，左右交替踩步并轻轻摆动身体。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "白色背景，角色完整；帽子、篮子、手臂可单独绘制。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 22,
+      "bytes": 863267,
+      "action_key": "basket-step",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-025",
+      "file": "actions/basket-step/U075-01.gif",
+      "poster": "actions/basket-step/U075-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

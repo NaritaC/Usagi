@@ -1,0 +1,40 @@
+{
+  "id": "U040",
+  "key": "fold-arms-look",
+  "title": "抱臂转头看过来",
+  "group": "互动与小动作",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U040-01",
+      "source_page": "https://tenor.com/view/usagi-chiikawa-turn-down-for-what-crossed-arms-arms-wide-open-gif-9589660775715461320",
+      "download_url": "https://media1.tenor.com/m/hRVRqtUEWMgAAAAC/usagi-chiikawa.gif",
+      "width": 240,
+      "height": 240,
+      "frames": 17,
+      "duration_seconds": 1.7,
+      "sha256": "0fb2ff67292474aeaa48895a44e951272cb4b9b3470312598e4991681218da38",
+      "source_title": "Usagi Chiikawa GIF - Usagi Chiikawa Turn down for what - Discover & Share GIFs",
+      "title": "抱臂转头看过来",
+      "group": "互动与小动作",
+      "description": "保持双臂抱在胸前，从侧面转向镜头，眼神随头部改变。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "右侧桌子和杯子靠近角色轮廓；是抱臂而非被拒绝的叉腰张嘴动作。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 17,
+      "bytes": 185020,
+      "action_key": "fold-arms-look",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-024",
+      "file": "actions/fold-arms-look/U040-01.gif",
+      "poster": "actions/fold-arms-look/U040-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

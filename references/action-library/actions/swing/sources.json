@@ -1,0 +1,40 @@
+{
+  "id": "U034",
+  "key": "swing",
+  "title": "荡秋千",
+  "group": "舞蹈与嬉戏",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1749547668720-nhj4d45nj6c.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 3 页",
+      "id": "U034-01",
+      "sha256": "6faa7927c56a628a0e77257b1c3ed4d74d9824be16fa0f5ce853e44b0697ece3",
+      "width": 400,
+      "height": 400,
+      "frames": 38,
+      "format": "GIF",
+      "bytes": 719288,
+      "duration_seconds": 3.8,
+      "distinct_frames": 38,
+      "group": "舞蹈与嬉戏",
+      "action_key": "swing",
+      "title": "荡秋千",
+      "description": "坐在秋千上前后摆动，身体随绳索的摆幅变化。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "秋千作为配套道具，绳子和手接触处需要重绘；帽子拆层。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G047",
+      "file": "actions/swing/U034-01.gif",
+      "poster": "actions/swing/U034-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

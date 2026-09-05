@@ -1,0 +1,40 @@
+{
+  "id": "U076",
+  "key": "beanie-look-up",
+  "title": "戴毛线帽仰头",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1746973722651-9fubjk0dege.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 6 页",
+      "id": "U076-01",
+      "sha256": "ac4aeae2092a88fc4ea6a79e7ce6cdd2e803fb81b1d5c4870ac5d217e457ba44",
+      "width": 220,
+      "height": 165,
+      "frames": 24,
+      "format": "GIF",
+      "bytes": 199933,
+      "duration_seconds": 2.4,
+      "distinct_frames": 24,
+      "group": "服装与形态",
+      "action_key": "beanie-look-up",
+      "title": "戴毛线帽仰头",
+      "description": "戴绒球毛线帽，身体起伏并抬头张嘴。",
+      "body_visibility": "full",
+      "camera_motion": "moving",
+      "redraw_notes": "镜头推近与放射背景；重画固定尺寸并拆帽子。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G069",
+      "file": "actions/beanie-look-up/U076-01.gif",
+      "poster": "actions/beanie-look-up/U076-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

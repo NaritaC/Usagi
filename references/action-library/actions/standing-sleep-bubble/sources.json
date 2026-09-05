@@ -1,0 +1,52 @@
+{
+  "id": "U048",
+  "key": "standing-sleep-bubble",
+  "title": "站着打瞌睡冒鼻泡",
+  "group": "睡眠与休息",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745570858410-693sjpqbrfh.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 1 页",
+      "id": "U048-01",
+      "sha256": "45f8d2e26359a0f4060fceff0051542f9feaaa033aa439624c52d55ae2b51b99",
+      "width": 675,
+      "height": 675,
+      "frames": 19,
+      "format": "GIF",
+      "bytes": 997958,
+      "duration_seconds": 2.47,
+      "distinct_frames": 19,
+      "group": "睡眠与休息",
+      "action_key": "standing-sleep-bubble",
+      "title": "站着打瞌睡冒鼻泡",
+      "description": "闭眼站着，鼻泡不断膨胀与收缩。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "另一角色遮挡右侧身体；鼻泡与头部各自成层。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "alternative_sources": [
+        {
+          "source_page": "https://tenor.com/view/chiikawa-usagi-sleeping-usagi-sleeping-sleep-gif-7072428692738948746",
+          "download_url": "https://media1.tenor.com/m/YiZQbLn8PooAAAAC/chiikawa-usagi.gif",
+          "candidate_id": "tenor-059"
+        },
+        {
+          "source_page": "https://gifdb.com/gif/cartoon-rabbit-standing-next-to-cat-r9mtss0kgd8gsg4v.html",
+          "download_url": "https://gifdb.com/images/branded/high/cartoon-rabbit-standing-next-to-cat-r9mtss0kgd8gsg4v.gif",
+          "candidate_id": "GD-G17"
+        }
+      ],
+      "candidate_id": "G022",
+      "file": "actions/standing-sleep-bubble/U048-01.gif",
+      "poster": "actions/standing-sleep-bubble/U048-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "闭眼睡眠期间不强行睁眼跟随；唤醒后渐进恢复。",
+  "production_status": "动作参考，尚未重绘分层"
+}

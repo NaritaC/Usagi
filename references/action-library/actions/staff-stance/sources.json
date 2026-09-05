@@ -1,0 +1,40 @@
+{
+  "id": "U005",
+  "key": "staff-stance",
+  "title": "挥黄棒后摆架势",
+  "group": "挥棒与道具",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U005-01",
+      "source_page": "https://tenor.com/view/hachiware-usagi-aura-farming-weapon-stance-gif-11012154059204671952",
+      "download_url": "https://media1.tenor.com/m/mNMHxZ7FOdAAAAAC/hachiware-usagi.gif",
+      "width": 498,
+      "height": 281,
+      "frames": 90,
+      "duration_seconds": 3.01,
+      "sha256": "ab4e01f6d18e2643e7067c1bee746424eb20c83d5664af14c9fd6356bf0a6562",
+      "source_title": "Hachiware Usagi GIF - Hachiware Usagi Aura farming - Discover & Share GIFs",
+      "title": "挥黄棒后摆架势",
+      "group": "挥棒与道具",
+      "description": "与小八并排，举起黄色长棒回身挥舞，再压低身体把棒横在身后摆架势。",
+      "body_visibility": "full",
+      "camera_motion": "moving",
+      "redraw_notes": "中途切近景，另一角色邻近；不是持续拿棒奔跑。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 80,
+      "bytes": 3478285,
+      "action_key": "staff-stance",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-116",
+      "file": "actions/staff-stance/U005-01.gif",
+      "poster": "actions/staff-stance/U005-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

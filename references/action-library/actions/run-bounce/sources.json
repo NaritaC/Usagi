@@ -1,0 +1,48 @@
+{
+  "id": "U001",
+  "key": "run-bounce",
+  "title": "跑动 → 脸着地 → 弹起",
+  "group": "跑动与移动",
+  "approved": true,
+  "assets": [
+    {
+      "id": "U001-01",
+      "title": "跑动 → 脸着地 → 弹起",
+      "note": "能看到脸部触地、身体挤压和弹起，随后继续跑动。请优先看这一段是否就是你描述的动作。",
+      "source_page": "https://usagi-project.vercel.app/",
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424409706-dz2uhbvwwjl.webp",
+      "source_type": "用户上传/第三方合集，官方原片出处尚未逐一核验",
+      "downloaded_on": "2026-09-06",
+      "bytes": 273770,
+      "sha256": "dc3efeb59fdf221cbc29dff2586e6ed5271e20244e657bb3995c5eefd6af7210",
+      "source_location": "最受欢迎排序，第 2 页（本次访问时）",
+      "format": "WEBP",
+      "width": 400,
+      "height": 400,
+      "frames": 45,
+      "has_audio": false,
+      "duration_seconds": 1.88,
+      "distinct_frames": 45,
+      "round01_id": "01",
+      "action_key": "run-bounce",
+      "group": "跑动与移动",
+      "description": "奔跑途中脸部触地、身体挤压、弹起，再继续跑动。",
+      "review_status": "用户已认可",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "按角色中心重新排布动作，补全跑出画框的部分，眼睛随头部旋转。",
+      "alternative_sources": [
+        {
+          "source_page": "https://usagi-project.vercel.app/",
+          "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424409706-dz2uhbvwwjl.webp",
+          "candidate_id": "G028"
+        }
+      ],
+      "candidate_id": "R1-01",
+      "file": "actions/run-bounce/U001-01.webp",
+      "poster": "actions/run-bounce/U001-01-preview.jpg"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

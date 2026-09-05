@@ -1,0 +1,47 @@
+{
+  "id": "U021",
+  "key": "lying-wiggle",
+  "title": "室内仰躺左右翻滚",
+  "group": "贴地与翻滚",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U021-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-rolling-around-gif-10735383129009654681",
+      "download_url": "https://media1.tenor.com/m/lPu-E8xXi5kAAAAC/chiikawa-usagi.gif",
+      "width": 464,
+      "height": 498,
+      "frames": 112,
+      "duration_seconds": 3.73,
+      "sha256": "9b28ef7e3e1de0046e16460916abb49d9a0097bcb95755d0b30230da1d047870",
+      "source_title": "Chiikawa Usagi GIF - Chiikawa Usagi Rolling around - Discover & Share GIFs",
+      "title": "室内仰躺左右翻滚",
+      "group": "贴地与翻滚",
+      "description": "仰躺在桌边，身体反复向两边滚动，背面与正面轮廓交替。",
+      "body_visibility": "partial",
+      "camera_motion": "moving",
+      "redraw_notes": "镜头先向下移动；桌子和吉伊遮住腿部，不是已确认的横向滑行。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 112,
+      "bytes": 5122101,
+      "action_key": "lying-wiggle",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://usagi-project.vercel.app/",
+          "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745432375757-kjtkgq4vcx.gif",
+          "candidate_id": "G018"
+        }
+      ],
+      "candidate_id": "tenor-118",
+      "file": "actions/lying-wiggle/U021-01.gif",
+      "poster": "actions/lying-wiggle/U021-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "快速翻转或形变期间减弱/暂停瞳孔追踪，恢复稳定姿态后自然回看鼠标。",
+  "production_status": "动作参考，尚未重绘分层"
+}

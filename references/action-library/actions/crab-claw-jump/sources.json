@@ -1,0 +1,47 @@
+{
+  "id": "U079",
+  "key": "crab-claw-jump",
+  "title": "举蟹钳蹦跳",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U079-01",
+      "source_page": "https://tenor.com/view/usagi-jump-chiikawa-cute-happy-gif-7265310277067112873",
+      "download_url": "https://media1.tenor.com/m/ZNORNCeUgakAAAAd/usagi-jump.gif",
+      "width": 498,
+      "height": 498,
+      "frames": 33,
+      "duration_seconds": 1.63,
+      "sha256": "fe99ae21dea0ec222f41b8cf8f9c5c666490d9a8ddbbef789895c7ac1e03bcdf",
+      "source_title": "Usagi Jump GIF - Usagi Jump Chiikawa - Discover & Share GIFs",
+      "title": "举蟹钳蹦跳",
+      "group": "服装与形态",
+      "description": "双手呈蟹钳形态，展开双臂向上蹦跳。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "原作风格、全身清楚；双手道具单独绘制便于复用。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 33,
+      "bytes": 2061674,
+      "action_key": "crab-claw-jump",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://gifdb.com/gif/cartoon-rabbit-smiling-in-field-with-trees-d0ygzdtvstwnnbli.html",
+          "download_url": "https://gifdb.com/images/branded/high/cartoon-rabbit-smiling-in-field-with-trees-d0ygzdtvstwnnbli.gif",
+          "candidate_id": "GD-G27"
+        }
+      ],
+      "candidate_id": "tenor-083",
+      "file": "actions/crab-claw-jump/U079-01.gif",
+      "poster": "actions/crab-claw-jump/U079-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

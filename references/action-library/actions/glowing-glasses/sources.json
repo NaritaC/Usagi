@@ -1,0 +1,47 @@
+{
+  "id": "U080",
+  "key": "glowing-glasses",
+  "title": "发光眼镜轻蹦",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U080-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-glow-gif-15580295955690042895",
+      "download_url": "https://media1.tenor.com/m/2DhUn65cNg8AAAAC/chiikawa-usagi.gif",
+      "width": 498,
+      "height": 487,
+      "frames": 29,
+      "duration_seconds": 3.5,
+      "sha256": "48437aecd3f3dedfbff83729bca9f7a7835d8c4c2437ca3aca542820eeb9ffba",
+      "source_title": "Chiikawa Usagi GIF - Chiikawa Usagi Glow - Discover & Share GIFs",
+      "title": "发光眼镜轻蹦",
+      "group": "服装与形态",
+      "description": "戴着圆形发光眼镜和胸前星星，耳部灯光闪烁，身体上下轻蹦。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "发光效果遮住眼睛，作为道具玩法参考。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 29,
+      "bytes": 1838470,
+      "action_key": "glowing-glasses",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://gifdb.com/gif/rabbit-with-light-bulb-on-head-217h90qj1nx4kco8.html",
+          "download_url": "https://gifdb.com/images/branded/high/rabbit-with-light-bulb-on-head-217h90qj1nx4kco8.gif",
+          "candidate_id": "GD-G26"
+        }
+      ],
+      "candidate_id": "tenor-035",
+      "file": "actions/glowing-glasses/U080-01.gif",
+      "poster": "actions/glowing-glasses/U080-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

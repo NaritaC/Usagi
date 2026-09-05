@@ -1,0 +1,40 @@
+{
+  "id": "U049",
+  "key": "cry",
+  "title": "委屈流泪",
+  "group": "表情与反应",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U049-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-cry-gif-4084831564383065843",
+      "download_url": "https://media1.tenor.com/m/OLA8qlpbFvMAAAAC/chiikawa-usagi-cry.gif",
+      "width": 498,
+      "height": 281,
+      "frames": 65,
+      "duration_seconds": 2.16,
+      "sha256": "bb6b2f776f2ac575fd34543da56fd745e6acdc6a8c1cbbf9a7632c82d596aa3f",
+      "source_title": "Chiikawa Usagi Cry GIF - Chiikawa Usagi cry - Discover & Share GIFs",
+      "title": "委屈流泪",
+      "group": "表情与反应",
+      "description": "低垂眼皮、嘴角微颤，泪水沿脸颊流下。",
+      "body_visibility": "closeup",
+      "camera_motion": "fixed",
+      "redraw_notes": "耳尖和身体被裁切，只作为脸部情绪参考。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 65,
+      "bytes": 3060550,
+      "action_key": "cry",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-017",
+      "file": "actions/cry/U049-01.gif",
+      "poster": "actions/cry/U049-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

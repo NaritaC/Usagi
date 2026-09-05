@@ -1,0 +1,40 @@
+{
+  "id": "U011",
+  "key": "jump-down",
+  "title": "从边缘跃下",
+  "group": "跑动与移动",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U011-01",
+      "source_page": "https://tenor.com/view/chiikawa-anime-cute-kawaii-cartoon-gif-12534161319232676531",
+      "download_url": "https://media1.tenor.com/m/rfJJT55OIrMAAAAC/chiikawa-anime.gif",
+      "width": 498,
+      "height": 281,
+      "frames": 31,
+      "duration_seconds": 3.1,
+      "sha256": "fdbf0ab8001d7c71276bcb661fd5631972ad3a07087fa9a8f8fa5f2af483cfa8",
+      "source_title": "Chiikawa Anime GIF - Chiikawa Anime Cute - Discover & Share GIFs",
+      "title": "从边缘跃下",
+      "group": "跑动与移动",
+      "description": "趴在高处边缘后探出身体，蹬腿跳离边缘，跃向画面下方。",
+      "body_visibility": "full",
+      "camera_motion": "moving",
+      "redraw_notes": "有镜头切换，另一角色先跳；可参考蓄力与跳离边缘的过渡。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 28,
+      "bytes": 670432,
+      "action_key": "jump-down",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-060",
+      "file": "actions/jump-down/U011-01.gif",
+      "poster": "actions/jump-down/U011-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

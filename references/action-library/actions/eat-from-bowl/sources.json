@@ -1,0 +1,41 @@
+{
+  "id": "U064",
+  "key": "eat-from-bowl",
+  "title": "捧碗低头抬头",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U064-01",
+      "source_page": "https://gifdb.com/gif/squirrel-and-rabbit-drinking-cans-ejt3pu1db10l2ocl.html",
+      "source_title": "Squirrel And Rabbit Drinking Cans GIF",
+      "download_url": "https://gifdb.com/images/branded/high/squirrel-and-rabbit-drinking-cans-ejt3pu1db10l2ocl.gif",
+      "width": 498,
+      "height": 278,
+      "frames": 20,
+      "duration_seconds": 2.0,
+      "sha256": "d07faaffbc36e182faa73e4c65088473ae7a9464ceef98e973dcedd6d02990e7",
+      "format": "GIF",
+      "title": "捧碗低头抬头",
+      "group": "进食与喝水",
+      "description": "坐在锅旁捧红色小碗，碗靠近嘴边，交替低头、抬头。",
+      "redraw_notes": "同伴和锅在身旁，角色比例较小；手臂与碗存在遮挡。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\G07-allframes.jpg",
+      "action_key": "eat-from-bowl",
+      "review_status": "待用户确认",
+      "candidate_id": "GD-G07",
+      "file": "actions/eat-from-bowl/U064-01.gif",
+      "poster": "actions/eat-from-bowl/U064-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 1913495,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

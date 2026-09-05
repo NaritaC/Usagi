@@ -1,0 +1,48 @@
+{
+  "id": "U060",
+  "key": "break-snack",
+  "title": "掰开细长食物",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U060-01",
+      "source_page": "https://gifdb.com/gif/usagi-chiikawa-breakin-stick-yd9oyjbprcg5p0fx.html",
+      "source_title": "Usagi Chiikawa Breakin Stick GIF",
+      "download_url": "https://gifdb.com/images/branded/high/usagi-chiikawa-breakin-stick-yd9oyjbprcg5p0fx.gif",
+      "width": 500,
+      "height": 500,
+      "frames": 15,
+      "duration_seconds": 1.5,
+      "sha256": "647f04e77b0267c1d91df788f343440a598c9ea93146b1c216698d6f05ee7e8a",
+      "format": "GIF",
+      "title": "掰开细长食物",
+      "group": "进食与喝水",
+      "description": "两手握住细长食物，将它弯折掰开并移向嘴边。",
+      "redraw_notes": "近景裁切耳朵与下半身；细棍不是黄色长棒，保留原站水印。",
+      "body_visibility": "closeup",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\G31-allframes.jpg",
+      "action_key": "break-snack",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://tenor.com/view/usagi-chiikawa-kawaii-cute-cartoon-gif-4814126510159580304",
+          "download_url": "https://media1.tenor.com/m/Qs82jf3aTJAAAAAC/usagi-chiikawa.gif",
+          "candidate_id": "tenor-039"
+        }
+      ],
+      "candidate_id": "GD-G31",
+      "file": "actions/break-snack/U060-01.gif",
+      "poster": "actions/break-snack/U060-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 3398516,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

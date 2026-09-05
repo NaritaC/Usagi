@@ -1,0 +1,48 @@
+{
+  "id": "U066",
+  "key": "eat-from-pot",
+  "title": "锅前快速动作与进食",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U066-01",
+      "source_page": "https://gifdb.com/gif/cartoon-rabbit-and-hamster-9w8e0lc2xo764iwd.html",
+      "source_title": "Cartoon Rabbit And Hamster GIF",
+      "download_url": "https://gifdb.com/images/branded/high/cartoon-rabbit-and-hamster-9w8e0lc2xo764iwd.gif",
+      "width": 498,
+      "height": 387,
+      "frames": 28,
+      "duration_seconds": 1.4,
+      "sha256": "7f1be1600a20db98259d1bdd18774b11ce0647a4e853e289781bacd9ba5db969",
+      "format": "GIF",
+      "title": "锅前快速动作与进食",
+      "group": "进食与喝水",
+      "description": "在锅前双手快速活动，随后把食物送近嘴部。",
+      "redraw_notes": "锅遮挡下半身，后方紧贴同伴；需要分离热气与手臂。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\G09-allframes.jpg",
+      "action_key": "eat-from-pot",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://usagi-project.vercel.app/",
+          "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1746973720603-m43534awl78.gif",
+          "candidate_id": "G067"
+        }
+      ],
+      "candidate_id": "GD-G09",
+      "file": "actions/eat-from-pot/U066-01.gif",
+      "poster": "actions/eat-from-pot/U066-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 2424287,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

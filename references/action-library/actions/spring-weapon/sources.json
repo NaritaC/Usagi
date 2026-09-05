@@ -1,0 +1,40 @@
+{
+  "id": "U026",
+  "key": "spring-weapon",
+  "title": "操作弹簧武器",
+  "group": "挥棒与道具",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U026-01",
+      "source_page": "https://tenor.com/view/usagi-chiikawa-yaha-spring-weapon-gif-6477926361952451913",
+      "download_url": "https://media1.tenor.com/m/WeY3tGVQfUkAAAAC/usagi-chiikawa.gif",
+      "width": 218,
+      "height": 236,
+      "frames": 33,
+      "duration_seconds": 3.3,
+      "sha256": "c90df8cf4f1c60ba086a31178daeeba131c9fb51b22873b0da77f49d65aeee8d",
+      "source_title": "Usagi Chiikawa GIF - Usagi Chiikawa Yaha - Discover & Share GIFs",
+      "title": "操作弹簧武器",
+      "group": "挥棒与道具",
+      "description": "双手持短柄，前端圆形部件沿弹簧伸出再缩回。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "218像素、斜俯视；不是黄色长棒，前端和弹簧要独立绘制。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 33,
+      "bytes": 224679,
+      "action_key": "spring-weapon",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-092",
+      "file": "actions/spring-weapon/U026-01.gif",
+      "poster": "actions/spring-weapon/U026-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

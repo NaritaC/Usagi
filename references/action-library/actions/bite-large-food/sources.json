@@ -1,0 +1,40 @@
+{
+  "id": "U058",
+  "key": "bite-large-food",
+  "title": "举起大块食物咬下",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424412030-ets9eiy36lh.webp",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 1 页",
+      "id": "U058-01",
+      "sha256": "611b5925002fb505d64ed77c37da930756d484a4f0bcfabc1ac02ec637583153",
+      "width": 540,
+      "height": 540,
+      "frames": 59,
+      "format": "WEBP",
+      "bytes": 883286,
+      "duration_seconds": 2.46,
+      "distinct_frames": 59,
+      "group": "进食与喝水",
+      "action_key": "bite-large-food",
+      "title": "举起大块食物咬下",
+      "description": "抓起大块食物仰头咬下，随后放回。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "桌面挡住身体；补全腿脚，画手部抓握和张嘴接触帧。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G023",
+      "file": "actions/bite-large-food/U058-01.webp",
+      "poster": "actions/bite-large-food/U058-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "U051",
+  "key": "mouth-foam",
+  "title": "嘴边泡沫与张嘴",
+  "group": "表情与反应",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745432394276-qngs39i1qrk.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 3 页",
+      "id": "U051-01",
+      "sha256": "796d9acfba2c9b019eae6494dd343022f04cae6ccd7ef57300e67ac2838a5ec1",
+      "width": 720,
+      "height": 709,
+      "frames": 21,
+      "format": "GIF",
+      "bytes": 1016226,
+      "duration_seconds": 1.68,
+      "distinct_frames": 21,
+      "group": "表情与反应",
+      "action_key": "mouth-foam",
+      "title": "嘴边泡沫与张嘴",
+      "description": "嘴边沾着白色泡沫，眉眼和嘴型连续变化。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "下半身和耳尖裁切；泡沫与嘴型分层。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G050",
+      "file": "actions/mouth-foam/U051-01.gif",
+      "poster": "actions/mouth-foam/U051-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

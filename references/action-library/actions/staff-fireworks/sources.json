@@ -1,0 +1,40 @@
+{
+  "id": "U004",
+  "key": "staff-fireworks",
+  "title": "挥动黄色长棍",
+  "group": "挥棒与道具",
+  "approved": true,
+  "assets": [
+    {
+      "id": "U004-01",
+      "title": "挥动黄色长棍",
+      "note": "持黄色双头长棍旋转、挥动并发射；这段没有拿棒跑步。",
+      "source_page": "https://gifdb.com/gif/chiikawa-usagi-fireworks-stick-7pv55smwxd2ulwra.html",
+      "download_url": "https://gifdb.com/images/branded/high/chiikawa-usagi-fireworks-stick-7pv55smwxd2ulwra.gif",
+      "source_type": "用户上传/第三方合集，官方原片出处尚未逐一核验",
+      "downloaded_on": "2026-09-06",
+      "bytes": 13336545,
+      "sha256": "237d465393ed316e18a0a6e1e0ecfac048a18fb816b2d2ae567ee63f6474a7f6",
+      "format": "GIF",
+      "width": 889,
+      "height": 500,
+      "frames": 62,
+      "has_audio": false,
+      "duration_seconds": 1.86,
+      "distinct_frames": 62,
+      "round01_id": "03",
+      "action_key": "staff-fireworks",
+      "group": "挥棒与道具",
+      "description": "持黄色双头长棍旋转、挥动并发射；这段没有拿棒跑步。",
+      "review_status": "用户已认可",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "原始背景与身体已合成；正式制作需要重绘透明图层与完整动作过渡。",
+      "candidate_id": "R1-03",
+      "file": "actions/staff-fireworks/U004-01.gif",
+      "poster": "actions/staff-fireworks/U004-01-preview.jpg"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "U088",
+  "key": "uniform-salute",
+  "title": "制服帽敬礼与抱臂",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1749547668963-e9q05d3opbt.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 4 页",
+      "id": "U088-01",
+      "sha256": "dd8e85f2bc7ac6f8e618f42586098dcf0aac626261b69f0a8881b45b8b08d808",
+      "width": 400,
+      "height": 400,
+      "frames": 10,
+      "format": "GIF",
+      "bytes": 163438,
+      "duration_seconds": 1.0,
+      "distinct_frames": 10,
+      "group": "服装与形态",
+      "action_key": "uniform-salute",
+      "title": "制服帽敬礼与抱臂",
+      "description": "穿戴制服帽，手抬到帽沿后回落到胸前。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "只有上半身，帽沿与手遮挡额头；需补全身体。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G063",
+      "file": "actions/uniform-salute/U088-01.gif",
+      "poster": "actions/uniform-salute/U088-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

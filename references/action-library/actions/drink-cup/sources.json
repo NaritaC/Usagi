@@ -1,0 +1,40 @@
+{
+  "id": "U062",
+  "key": "drink-cup",
+  "title": "端杯喝水",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745518367455-t0gr954n6xg.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 2 页",
+      "id": "U062-01",
+      "sha256": "96459384e59a801d41c107c2d6acdea649239bd65f66759c78377ccd25ce4248",
+      "width": 220,
+      "height": 124,
+      "frames": 21,
+      "format": "GIF",
+      "bytes": 85509,
+      "duration_seconds": 2.1,
+      "distinct_frames": 21,
+      "group": "进食与喝水",
+      "action_key": "drink-cup",
+      "title": "端杯喝水",
+      "description": "双手端起黄色杯子喝下，再抬头放低杯子。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "低清宽幅，补全身体；杯沿遮挡嘴部需补嘴型。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G034",
+      "file": "actions/drink-cup/U062-01.gif",
+      "poster": "actions/drink-cup/U062-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

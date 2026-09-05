@@ -1,0 +1,42 @@
+{
+  "id": "U083",
+  "key": "jump-out-pajamas",
+  "title": "跳出睡衣并落地",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U083-01",
+      "source_page": "https://www.sigstick.com/pack/jr0FZEfogF8OurQ8ZcVg-chiikawa-usagi",
+      "source_title": "Chiikawa Usagi",
+      "download_url": "https://cdn2.cdnstep.com/jr0FZEfogF8OurQ8ZcVg/16-1.png",
+      "width": 197,
+      "height": 197,
+      "frames": 32,
+      "duration_seconds": 3.84,
+      "sha256": "3e1d10cb2bb2e991185f95e2a393e592798f9726c7633100e88f5539dd3cbea9",
+      "format": "GIF",
+      "title": "跳出睡衣并落地",
+      "group": "服装与形态",
+      "description": "穿黄色连帽睡衣站立，向上跳出衣服，露出普通形态，再落地摆动。",
+      "redraw_notes": "左右有同伴，画面上方有天气文字，跳到最高点时身体出画。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\S17-allframes.jpg",
+      "format_note": "远程URL以.png结尾，实际内容经文件头和解码确认是GIF；本地副本改用.gif后缀，字节不变。",
+      "action_key": "jump-out-pajamas",
+      "review_status": "待用户确认",
+      "candidate_id": "GD-S17",
+      "file": "actions/jump-out-pajamas/U083-01.gif",
+      "poster": "actions/jump-out-pajamas/U083-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 525357,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

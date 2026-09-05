@@ -1,0 +1,40 @@
+{
+  "id": "U003",
+  "key": "butt-pat",
+  "title": "背身拍屁屁",
+  "group": "互动与小动作",
+  "approved": true,
+  "assets": [
+    {
+      "id": "U003-01",
+      "title": "背身拍屁屁",
+      "note": "背身与侧身交替，手在身后拍动，身体与耳朵一起摆动。",
+      "source_page": "https://tenor.com/view/usagi-dance-chiikawa-tease-hehe-gif-7163663705603193535",
+      "download_url": "https://media1.tenor.com/m/Y2pyL37WOr8AAAAC/usagi-dance.gif",
+      "source_type": "用户上传/第三方合集，官方原片出处尚未逐一核验",
+      "downloaded_on": "2026-09-06",
+      "bytes": 1055273,
+      "sha256": "6011b852f0f2219901ceac31848d2ab8f2461d4f81f2b9f1b5879b7f88b686aa",
+      "format": "GIF",
+      "width": 498,
+      "height": 498,
+      "frames": 14,
+      "has_audio": false,
+      "duration_seconds": 1.4,
+      "distinct_frames": 14,
+      "round01_id": "02",
+      "action_key": "butt-pat",
+      "group": "互动与小动作",
+      "description": "背身与侧身交替，手在身后拍动，身体与耳朵一起摆动。",
+      "review_status": "用户已认可",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "原始背景与身体已合成；正式制作需要重绘透明图层与完整动作过渡。",
+      "candidate_id": "R1-02",
+      "file": "actions/butt-pat/U003-01.gif",
+      "poster": "actions/butt-pat/U003-01-preview.jpg"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "U009",
+  "key": "shake-water",
+  "title": "甩水抖动",
+  "group": "夸张形变",
+  "approved": true,
+  "assets": [
+    {
+      "id": "U009-01",
+      "title": "甩水抖动",
+      "note": "耳朵甩动、身体快速抖动，适合判断你喜欢的夸张幅度。",
+      "source_page": "https://usagi-project.vercel.app/",
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424348640-b1gzt4mhgyf.webp",
+      "source_type": "用户上传/第三方合集，官方原片出处尚未逐一核验",
+      "downloaded_on": "2026-09-06",
+      "bytes": 358340,
+      "sha256": "41abb0cfc70b78efc7d0b76e29d7242aaa1cf94cd254ac11e4f53f8e4fba84d4",
+      "source_location": "最受欢迎排序，第 1 页（本次访问时）",
+      "format": "WEBP",
+      "width": 488,
+      "height": 450,
+      "frames": 36,
+      "has_audio": false,
+      "duration_seconds": 1.08,
+      "distinct_frames": 36,
+      "round01_id": "09",
+      "action_key": "shake-water",
+      "group": "夸张形变",
+      "description": "身体快速抖动，耳朵甩开，水滴向外飞散。",
+      "review_status": "用户已认可",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "需要补全脚部，水滴作为独立特效，保留躯干变形。",
+      "alternative_sources": [
+        {
+          "source_page": "https://usagi-project.vercel.app/",
+          "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424348640-b1gzt4mhgyf.webp",
+          "candidate_id": "G005"
+        }
+      ],
+      "candidate_id": "R1-09",
+      "file": "actions/shake-water/U009-01.webp",
+      "poster": "actions/shake-water/U009-01-preview.jpg"
+    }
+  ],
+  "follow_notes": "快速翻转或形变期间减弱/暂停瞳孔追踪，恢复稳定姿态后自然回看鼠标。",
+  "production_status": "动作参考，尚未重绘分层"
+}

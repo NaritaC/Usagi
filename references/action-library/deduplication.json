@@ -1,0 +1,137 @@
+[
+  {
+    "candidate_id": "G005",
+    "reason": "原始字节相同",
+    "kept_candidate": "R1-09"
+  },
+  {
+    "candidate_id": "G014",
+    "reason": "原始字节相同",
+    "kept_candidate": "R1-08"
+  },
+  {
+    "candidate_id": "G028",
+    "reason": "原始字节相同",
+    "kept_candidate": "R1-01"
+  },
+  {
+    "candidate_id": "G037",
+    "reason": "原始字节相同",
+    "kept_candidate": "R1-06"
+  },
+  {
+    "candidate_id": "G041",
+    "reason": "原始字节相同",
+    "kept_candidate": "R1-07"
+  },
+  {
+    "candidate_id": "G024",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "GD-G03"
+  },
+  {
+    "candidate_id": "tenor-012",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "GD-G03"
+  },
+  {
+    "candidate_id": "G016",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "tenor-003"
+  },
+  {
+    "candidate_id": "GD-G30",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "tenor-003"
+  },
+  {
+    "candidate_id": "tenor-098",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "G013"
+  },
+  {
+    "candidate_id": "tenor-059",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "G022"
+  },
+  {
+    "candidate_id": "GD-G17",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "G022"
+  },
+  {
+    "candidate_id": "tenor-029",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "G033"
+  },
+  {
+    "candidate_id": "GD-G18",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "G033"
+  },
+  {
+    "candidate_id": "GD-S09",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "G031"
+  },
+  {
+    "candidate_id": "GD-S18",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "G007"
+  },
+  {
+    "candidate_id": "G054",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "GD-S13"
+  },
+  {
+    "candidate_id": "tenor-022",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "GD-S13"
+  },
+  {
+    "candidate_id": "G067",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "GD-G09"
+  },
+  {
+    "candidate_id": "GD-G22",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "tenor-026"
+  },
+  {
+    "candidate_id": "tenor-030",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "GD-G01"
+  },
+  {
+    "candidate_id": "GD-G26",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "tenor-035"
+  },
+  {
+    "candidate_id": "GD-G27",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "tenor-083"
+  },
+  {
+    "candidate_id": "tenor-106",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "GD-G21"
+  },
+  {
+    "candidate_id": "GD-G28",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "tenor-014"
+  },
+  {
+    "candidate_id": "tenor-039",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "GD-G31"
+  },
+  {
+    "candidate_id": "G018",
+    "reason": "人工核对为同一动作片段的不同裁切/压缩版本",
+    "kept_candidate": "tenor-118"
+  }
+]

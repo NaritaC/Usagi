@@ -1,0 +1,42 @@
+{
+  "id": "U031",
+  "key": "rope-swing",
+  "title": "抓绳荡秋千",
+  "group": "舞蹈与嬉戏",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U031-01",
+      "source_page": "https://www.sigstick.com/pack/jr0FZEfogF8OurQ8ZcVg-chiikawa-usagi",
+      "source_title": "Chiikawa Usagi",
+      "download_url": "https://cdn2.cdnstep.com/jr0FZEfogF8OurQ8ZcVg/15-1.png",
+      "width": 192,
+      "height": 192,
+      "frames": 28,
+      "duration_seconds": 1.96,
+      "sha256": "864c900a40faac9df0d5c37dc2cdc9692f67548e5bd0a494022220c2fabd31e6",
+      "format": "GIF",
+      "title": "抓绳荡秋千",
+      "group": "舞蹈与嬉戏",
+      "description": "两手抓住垂下的绳子前后荡动，身体从树干旁掠过，画面逐渐靠近脸部。",
+      "redraw_notes": "树干曾遮住角色，后段镜头推进至近景；需重建完整摆动弧线。",
+      "body_visibility": "partial",
+      "camera_motion": "moving",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\S16-allframes.jpg",
+      "format_note": "远程URL以.png结尾，实际内容经文件头和解码确认是GIF；本地副本改用.gif后缀，字节不变。",
+      "action_key": "rope-swing",
+      "review_status": "待用户确认",
+      "candidate_id": "GD-S16",
+      "file": "actions/rope-swing/U031-01.gif",
+      "poster": "actions/rope-swing/U031-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 576978,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

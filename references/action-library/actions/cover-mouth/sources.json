@@ -1,0 +1,40 @@
+{
+  "id": "U038",
+  "key": "cover-mouth",
+  "title": "捂嘴摆臂",
+  "group": "互动与小动作",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U038-01",
+      "source_page": "https://tenor.com/view/usagi-scuba-bunny-funny-gif-2491509773313913542",
+      "download_url": "https://media1.tenor.com/m/IpOe8DDKMsYAAAAd/usagi-scuba.gif",
+      "width": 254,
+      "height": 297,
+      "frames": 170,
+      "duration_seconds": 5.66,
+      "sha256": "22b07a12fb77873820ce6f2c8be08f7d7c4d9771af1bcd05402911f1a41c92ba",
+      "source_title": "Usagi Scuba GIF - Usagi Scuba Bunny - Discover & Share GIFs",
+      "title": "捂嘴摆臂",
+      "group": "互动与小动作",
+      "description": "一只手始终捂在嘴边，另一只手上下摆动，身体轻晃。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "镜头稳定，手部经过口鼻；鼠标视线控制要独立处理眼睛。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 170,
+      "bytes": 3923179,
+      "action_key": "cover-mouth",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-019",
+      "file": "actions/cover-mouth/U038-01.gif",
+      "poster": "actions/cover-mouth/U038-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

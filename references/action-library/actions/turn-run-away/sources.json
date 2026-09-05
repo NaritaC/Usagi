@@ -1,0 +1,48 @@
+{
+  "id": "U007",
+  "key": "turn-run-away",
+  "title": "转身跑远",
+  "group": "跑动与移动",
+  "approved": true,
+  "assets": [
+    {
+      "id": "U007-01",
+      "title": "转身跑远",
+      "note": "侧身转向、背身离开，可观察方向改变与跑步之间的衔接。",
+      "source_page": "https://usagi-project.vercel.app/",
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424409208-yb6zrofzdy.webp",
+      "source_type": "用户上传/第三方合集，官方原片出处尚未逐一核验",
+      "downloaded_on": "2026-09-06",
+      "bytes": 243564,
+      "sha256": "9ed07593e59a79fc94ad75080a5a06b3062d872baa0e8a79c64297c0360c61b4",
+      "source_location": "最受欢迎排序，第 2 页（本次访问时）",
+      "format": "WEBP",
+      "width": 540,
+      "height": 540,
+      "frames": 30,
+      "has_audio": false,
+      "duration_seconds": 3.0,
+      "distinct_frames": 30,
+      "round01_id": "07",
+      "action_key": "turn-run-away",
+      "group": "跑动与移动",
+      "description": "从侧面转向背面，往远处奔跑离开。",
+      "review_status": "用户已认可",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "开头近景裁切，后段尺寸缩小；补全各角度并统一尺寸。",
+      "alternative_sources": [
+        {
+          "source_page": "https://usagi-project.vercel.app/",
+          "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424409208-yb6zrofzdy.webp",
+          "candidate_id": "G041"
+        }
+      ],
+      "candidate_id": "R1-07",
+      "file": "actions/turn-run-away/U007-01.webp",
+      "poster": "actions/turn-run-away/U007-01-preview.jpg"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

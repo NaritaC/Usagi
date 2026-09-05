@@ -1,0 +1,47 @@
+{
+  "id": "U020",
+  "key": "forward-roll",
+  "title": "前滚翻落到头顶",
+  "group": "贴地与翻滚",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1746275140380-jk6l8lhg1f.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 2 页",
+      "id": "U020-01",
+      "sha256": "de63e36d7e2ea82366ffee9a9571dda95257103ce5b12f3ad082bad2be31d072",
+      "width": 732,
+      "height": 610,
+      "frames": 30,
+      "format": "GIF",
+      "bytes": 574545,
+      "duration_seconds": 2.1,
+      "distinct_frames": 30,
+      "group": "贴地与翻滚",
+      "action_key": "forward-roll",
+      "title": "前滚翻落到头顶",
+      "description": "站立后向前翻转，头部朝下落地，短暂停住。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "绘制头顶承重与耳朵弯折；翻转阶段让视线随头部运动。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "alternative_sources": [
+        {
+          "source_page": "https://www.sigstick.com/pack/jr0FZEfogF8OurQ8ZcVg-chiikawa-usagi",
+          "download_url": "https://cdn2.cdnstep.com/jr0FZEfogF8OurQ8ZcVg/8-1.png",
+          "candidate_id": "GD-S09"
+        }
+      ],
+      "candidate_id": "G031",
+      "file": "actions/forward-roll/U020-01.gif",
+      "poster": "actions/forward-roll/U020-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "快速翻转或形变期间减弱/暂停瞳孔追踪，恢复稳定姿态后自然回看鼠标。",
+  "production_status": "动作参考，尚未重绘分层"
+}

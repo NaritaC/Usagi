@@ -1,0 +1,40 @@
+{
+  "id": "U081",
+  "key": "hat-dance",
+  "title": "戴帽子摆手跳舞",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1749547668360-w0c7aahegk.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 4 页",
+      "id": "U081-01",
+      "sha256": "97b663ef5ca3977a2ebef54b20ec3b08971100b49e39e405b3d0654b4e7b4b29",
+      "width": 640,
+      "height": 519,
+      "frames": 20,
+      "format": "GIF",
+      "bytes": 431155,
+      "duration_seconds": 2.0,
+      "distinct_frames": 20,
+      "group": "服装与形态",
+      "action_key": "hat-dance",
+      "title": "戴帽子摆手跳舞",
+      "description": "戴小帽子，双手在腹部附近摆动，身体左右晃。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "背景含音符；去除装饰并重画帽子、手、身体独立层。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G061",
+      "file": "actions/hat-dance/U081-01.gif",
+      "poster": "actions/hat-dance/U081-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

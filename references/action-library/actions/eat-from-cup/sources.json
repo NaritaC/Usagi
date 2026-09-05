@@ -1,0 +1,40 @@
+{
+  "id": "U065",
+  "key": "eat-from-cup",
+  "title": "拿着杯子吃东西",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424411003-4ej3uuc2gxt.webp",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 2 页",
+      "id": "U065-01",
+      "sha256": "2d2bb39674007c8d9663d0b9fa0120a96a7d9021e2da9f5632559e738779db93",
+      "width": 626,
+      "height": 639,
+      "frames": 16,
+      "format": "WEBP",
+      "bytes": 294562,
+      "duration_seconds": 1.28,
+      "distinct_frames": 16,
+      "group": "进食与喝水",
+      "action_key": "eat-from-cup",
+      "title": "拿着杯子吃东西",
+      "description": "拿着杯子或小碗，将食物送到嘴边。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "杯子和手部互相遮挡，补全下半身。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G026",
+      "file": "actions/eat-from-cup/U065-01.webp",
+      "poster": "actions/eat-from-cup/U065-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

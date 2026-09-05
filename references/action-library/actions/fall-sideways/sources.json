@@ -1,0 +1,40 @@
+{
+  "id": "U018",
+  "key": "fall-sideways",
+  "title": "仰头后侧身倒下",
+  "group": "贴地与翻滚",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U018-01",
+      "source_page": "https://tenor.com/view/usagi-chiikawa-squid-fall-collapse-gif-17723066907924067040",
+      "download_url": "https://media1.tenor.com/m/9fT7c7FLcuAAAAAC/usagi-chiikawa.gif",
+      "width": 326,
+      "height": 232,
+      "frames": 21,
+      "duration_seconds": 2.1,
+      "sha256": "7657f2d5fbdff64024ef00256f3f7afbd3527f82e6dfc9f3d6f273da01da906b",
+      "source_title": "Usagi Chiikawa GIF - Usagi Chiikawa Squid - Discover & Share GIFs",
+      "title": "仰头后侧身倒下",
+      "group": "贴地与翻滚",
+      "description": "先仰起头，身体失去支撑后向侧边倒下，贴着地面停住。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "地面有白色道具；适合拆成失衡、倒地、落地停顿。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 16,
+      "bytes": 317884,
+      "action_key": "fall-sideways",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-013",
+      "file": "actions/fall-sideways/U018-01.gif",
+      "poster": "actions/fall-sideways/U018-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "快速翻转或形变期间减弱/暂停瞳孔追踪，恢复稳定姿态后自然回看鼠标。",
+  "production_status": "动作参考，尚未重绘分层"
+}

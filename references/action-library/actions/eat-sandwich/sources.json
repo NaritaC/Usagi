@@ -1,0 +1,52 @@
+{
+  "id": "U068",
+  "key": "eat-sandwich",
+  "title": "坐着啃夹心面包",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424346850-oyzm22v5heo.webp",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 2 页",
+      "id": "U068-01",
+      "sha256": "8c1d211950bc72267a685bf7b59e8ca1b6354898561955e3be050859424315d5",
+      "width": 756,
+      "height": 756,
+      "frames": 21,
+      "format": "WEBP",
+      "bytes": 484844,
+      "duration_seconds": 1.68,
+      "distinct_frames": 21,
+      "group": "进食与喝水",
+      "action_key": "eat-sandwich",
+      "title": "坐着啃夹心面包",
+      "description": "坐下抱着夹心面包，小口啃食并咀嚼。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "面包、双手和嘴巴分层；移除背景。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "alternative_sources": [
+        {
+          "source_page": "https://tenor.com/view/toast-usagi-gif-298603599025900020",
+          "download_url": "https://media1.tenor.com/m/BCTaZCiXifQAAAAC/toast-usagi.gif",
+          "candidate_id": "tenor-029"
+        },
+        {
+          "source_page": "https://gifdb.com/gif/cartoon-rabbit-sitting-in-grass-eating-npifng5qw5rsztz9.html",
+          "download_url": "https://gifdb.com/images/branded/high/cartoon-rabbit-sitting-in-grass-eating-npifng5qw5rsztz9.gif",
+          "candidate_id": "GD-G18"
+        }
+      ],
+      "candidate_id": "G033",
+      "file": "actions/eat-sandwich/U068-01.webp",
+      "poster": "actions/eat-sandwich/U068-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

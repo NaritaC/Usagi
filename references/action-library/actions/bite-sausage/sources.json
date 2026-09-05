@@ -1,0 +1,47 @@
+{
+  "id": "U059",
+  "key": "bite-sausage",
+  "title": "啃大香肠",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U059-01",
+      "source_page": "https://tenor.com/view/usagi-sausage-chiikawa-food-hungry-gif-15088959220803747651",
+      "download_url": "https://media1.tenor.com/m/0WbAd3Jcv0MAAAAC/usagi-sausage.gif",
+      "width": 489,
+      "height": 498,
+      "frames": 72,
+      "duration_seconds": 2.41,
+      "sha256": "ecd4b1970eb308a176f7290baecb121c8e534e73f81d436dff9aa0a6395a99ac",
+      "source_title": "Usagi Sausage GIF - Usagi Sausage Chiikawa - Discover & Share GIFs",
+      "title": "啃大香肠",
+      "group": "进食与喝水",
+      "description": "抱住大香肠转向镜头，张嘴咬住并持续咀嚼。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "右侧有其他角色，食物遮挡胸口；嘴和香肠需要分层。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 72,
+      "bytes": 3387254,
+      "action_key": "bite-sausage",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://gifdb.com/gif/cartoon-rabbit-eating-cake-epgkt1jdex45zips.html",
+          "download_url": "https://gifdb.com/images/branded/high/cartoon-rabbit-eating-cake-epgkt1jdex45zips.gif",
+          "candidate_id": "GD-G28"
+        }
+      ],
+      "candidate_id": "tenor-014",
+      "file": "actions/bite-sausage/U059-01.gif",
+      "poster": "actions/bite-sausage/U059-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

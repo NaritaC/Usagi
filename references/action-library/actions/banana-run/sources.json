@@ -1,0 +1,40 @@
+{
+  "id": "U074",
+  "key": "banana-run",
+  "title": "香蕉装小步跑",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U074-01",
+      "source_page": "https://tenor.com/view/usagi-chiikawa-banana-chiikawa-pocket-usagi-banana-gif-18252654533451531888",
+      "download_url": "https://media1.tenor.com/m/_U50l2pNRnAAAAAC/usagi-chiikawa.gif",
+      "width": 145,
+      "height": 145,
+      "frames": 30,
+      "duration_seconds": 1.15,
+      "sha256": "9f63573068fc7fda08882a7a6da04d9e50f29ab8b152bd17bfaf8e5b1ef268a3",
+      "source_title": "Usagi Chiikawa GIF - Usagi Chiikawa Banana - Discover & Share GIFs",
+      "title": "香蕉装小步跑",
+      "group": "服装与形态",
+      "description": "穿香蕉外形服装，双脚交替抬起向前跑，身体轻微左右摇晃。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "145像素原图，旁边有局部道具；正式素材需提高轮廓与脚部清晰度。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 30,
+      "bytes": 156193,
+      "action_key": "banana-run",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-054",
+      "file": "actions/banana-run/U074-01.gif",
+      "poster": "actions/banana-run/U074-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

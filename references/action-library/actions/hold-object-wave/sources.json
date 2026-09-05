@@ -1,0 +1,40 @@
+{
+  "id": "U024",
+  "key": "hold-object-wave",
+  "title": "手持物件挥动",
+  "group": "挥棒与道具",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1746973724779-3e3ojzsh6d8.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 3 页",
+      "id": "U024-01",
+      "sha256": "a9a633c5eb2400b2df6a6ee96e87121b8608c18eccd5141dc19b3e4438226f2f",
+      "width": 220,
+      "height": 220,
+      "frames": 9,
+      "format": "GIF",
+      "bytes": 121756,
+      "duration_seconds": 0.9,
+      "distinct_frames": 9,
+      "group": "挥棒与道具",
+      "action_key": "hold-object-wave",
+      "title": "手持物件挥动",
+      "description": "抬起手里的白色物件，转动身体后放低手臂。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "字幕覆盖且角色被裁切；物件形状需要参考清晰原片补画。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G045",
+      "file": "actions/hold-object-wave/U024-01.gif",
+      "poster": "actions/hold-object-wave/U024-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

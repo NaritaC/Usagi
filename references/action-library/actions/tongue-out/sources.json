@@ -1,0 +1,40 @@
+{
+  "id": "U055",
+  "key": "tongue-out",
+  "title": "张嘴吐舌",
+  "group": "表情与反应",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424349312-x1sqr8cg4pi.webp",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 1 页",
+      "id": "U055-01",
+      "sha256": "9782daf36f5a4b856ac648678173a28e09ec652d4d06fa9780931c2f8b99e7ed",
+      "width": 146,
+      "height": 83,
+      "frames": 18,
+      "format": "WEBP",
+      "bytes": 33368,
+      "duration_seconds": 0.36,
+      "distinct_frames": 18,
+      "group": "表情与反应",
+      "action_key": "tongue-out",
+      "title": "张嘴吐舌",
+      "description": "正面张嘴、吐出小舌头，眼睛与耳根有轻微变化。",
+      "body_visibility": "closeup",
+      "camera_motion": "fixed",
+      "redraw_notes": "原图仅146×83，脸部也被裁切；只参考嘴型节奏，需要重绘。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G003",
+      "file": "actions/tongue-out/U055-01.webp",
+      "poster": "actions/tongue-out/U055-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

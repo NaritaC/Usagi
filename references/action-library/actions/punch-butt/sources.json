@@ -1,0 +1,40 @@
+{
+  "id": "U043",
+  "key": "punch-butt",
+  "title": "转身挥拳后翘臀",
+  "group": "互动与小动作",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U043-01",
+      "source_page": "https://tenor.com/view/usagi-chiikawa-twerk-fighting-punch-gif-10800469828091641742",
+      "download_url": "https://media1.tenor.com/m/leL6Fda5_44AAAAC/usagi-chiikawa.gif",
+      "width": 498,
+      "height": 498,
+      "frames": 84,
+      "duration_seconds": 2.81,
+      "sha256": "03f6235469310849b0a379405c5687c48f884833febc4cfdafb6623cb2aa493a",
+      "source_title": "Usagi Chiikawa GIF - Usagi Chiikawa Twerk - Discover & Share GIFs",
+      "title": "转身挥拳后翘臀",
+      "group": "互动与小动作",
+      "description": "由正面转向侧面连续挥动手臂，随后俯身翘起屁股并摆动尾部。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "灰色地面背景；动作首尾可拆成挥拳、转身和翘臀。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 84,
+      "bytes": 3587323,
+      "action_key": "punch-butt",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-002",
+      "file": "actions/punch-butt/U043-01.gif",
+      "poster": "actions/punch-butt/U043-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

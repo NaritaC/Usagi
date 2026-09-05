@@ -1,0 +1,42 @@
+{
+  "id": "U072",
+  "key": "stretch-cheese",
+  "title": "咬住食物向上拉丝",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U072-01",
+      "source_page": "https://www.sigstick.com/pack/jr0FZEfogF8OurQ8ZcVg-chiikawa-usagi",
+      "source_title": "Chiikawa Usagi",
+      "download_url": "https://cdn2.cdnstep.com/jr0FZEfogF8OurQ8ZcVg/14-1.png",
+      "width": 195,
+      "height": 195,
+      "frames": 20,
+      "duration_seconds": 1.4,
+      "sha256": "8fa497082fd89026fe1a7eca9f5dfe9a13b52da0ae62e755ed0e97149907a1d0",
+      "format": "GIF",
+      "title": "咬住食物向上拉丝",
+      "group": "进食与喝水",
+      "description": "咬住会拉丝的食物，上身上下起伏，嘴与食物之间形成长条拉丝。",
+      "redraw_notes": "耳朵上缘及下半身裁切，食物占据下方；需要补全躯干和餐盘。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\S15-allframes.jpg",
+      "format_note": "远程URL以.png结尾，实际内容经文件头和解码确认是GIF；本地副本改用.gif后缀，字节不变。",
+      "action_key": "stretch-cheese",
+      "review_status": "待用户确认",
+      "candidate_id": "GD-S15",
+      "file": "actions/stretch-cheese/U072-01.gif",
+      "poster": "actions/stretch-cheese/U072-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 390666,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

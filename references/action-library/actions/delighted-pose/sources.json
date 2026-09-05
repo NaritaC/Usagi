@@ -1,0 +1,53 @@
+{
+  "id": "U050",
+  "key": "delighted-pose",
+  "title": "全身扭动与闪光",
+  "group": "表情与反应",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U050-01",
+      "source_page": "https://gifdb.com/gif/scared-chibi-chiikawa-usagi-hsok88drng05fi18.html",
+      "source_title": "Scared Chibi Chiikawa Usagi GIF",
+      "download_url": "https://gifdb.com/images/branded/high/scared-chibi-chiikawa-usagi-hsok88drng05fi18.gif",
+      "width": 500,
+      "height": 503,
+      "frames": 40,
+      "duration_seconds": 4.0,
+      "sha256": "463323305481e5d514017f2431b7a7dbe9811305caf597470478a9bfa6ad7f20",
+      "format": "GIF",
+      "title": "全身扭动与闪光",
+      "group": "表情与反应",
+      "description": "全身左右扭动，耳朵和身体倾斜，双手靠近脸侧，周围伴随闪光。",
+      "redraw_notes": "全身基本完整；闪光元素需与身体分离，原站水印保留。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\G03-allframes.jpg",
+      "action_key": "delighted-pose",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://usagi-project.vercel.app/",
+          "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745432392923-qg5xbzat3y.gif",
+          "candidate_id": "G024"
+        },
+        {
+          "source_page": "https://tenor.com/view/usagi-chiikawa-delicious-yummy-usagi-delicious-gif-6112996151427830295",
+          "download_url": "https://media1.tenor.com/m/VNW5nJcvkhcAAAAC/usagi-chiikawa.gif",
+          "candidate_id": "tenor-012"
+        }
+      ],
+      "candidate_id": "GD-G03",
+      "file": "actions/delighted-pose/U050-01.gif",
+      "poster": "actions/delighted-pose/U050-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 6381270,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

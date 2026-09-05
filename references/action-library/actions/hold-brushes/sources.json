@@ -1,0 +1,42 @@
+{
+  "id": "U023",
+  "key": "hold-brushes",
+  "title": "抱着多把刷子亮相",
+  "group": "挥棒与道具",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U023-01",
+      "source_page": "https://www.sigstick.com/pack/jr0FZEfogF8OurQ8ZcVg-chiikawa-usagi",
+      "source_title": "Chiikawa Usagi",
+      "download_url": "https://cdn2.cdnstep.com/jr0FZEfogF8OurQ8ZcVg/3-1.png",
+      "width": 417,
+      "height": 417,
+      "frames": 83,
+      "duration_seconds": 2.52,
+      "sha256": "05188258330229565b2f87ac2d17086bdb8e2db2b4d4b96e3590d8d5799aae29",
+      "format": "GIF",
+      "title": "抱着多把刷子亮相",
+      "group": "挥棒与道具",
+      "description": "侧抱数把木柄刷子，伸出一只手，头部和嘴巴产生短促变化。",
+      "redraw_notes": "下半身被裁切，刷子遮挡一侧身体；适合补充持物姿态。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\S04-allframes.jpg",
+      "format_note": "远程URL以.png结尾，实际内容经文件头和解码确认是GIF；本地副本改用.gif后缀，字节不变。",
+      "action_key": "hold-brushes",
+      "review_status": "待用户确认",
+      "candidate_id": "GD-S04",
+      "file": "actions/hold-brushes/U023-01.gif",
+      "poster": "actions/hold-brushes/U023-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 817802,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "U054",
+  "key": "sparkly-eyes",
+  "title": "星星眼与睁大眼睛",
+  "group": "表情与反应",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424349617-z16drr7x86e.webp",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 1 页",
+      "id": "U054-01",
+      "sha256": "9764f82201d19a1162bcb0ea07e91e2ac5584aa4d20672270e4117ee40768740",
+      "width": 498,
+      "height": 278,
+      "frames": 24,
+      "format": "WEBP",
+      "bytes": 193670,
+      "duration_seconds": 2.4,
+      "distinct_frames": 24,
+      "group": "表情与反应",
+      "action_key": "sparkly-eyes",
+      "title": "星星眼与睁大眼睛",
+      "description": "眼睛高光变化，瞳孔放大，镜头逐步靠近脸部。",
+      "body_visibility": "closeup",
+      "camera_motion": "moving",
+      "redraw_notes": "补全全身；重画独立眼白、瞳孔和高光，移除放射背景。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G001",
+      "file": "actions/sparkly-eyes/U054-01.webp",
+      "poster": "actions/sparkly-eyes/U054-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "U091",
+  "key": "long-ear-shake",
+  "title": "甩动长耳朵",
+  "group": "夸张形变",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U091-01",
+      "source_page": "https://tenor.com/view/usagi-ears-usagi-chiikawa-usagi-chiikawa-chiikawa-usagi-ears-gif-8148813568450724904",
+      "download_url": "https://media1.tenor.com/m/cRZmxChjhCgAAAAC/usagi-ears-usagi.gif",
+      "width": 498,
+      "height": 367,
+      "frames": 75,
+      "duration_seconds": 5.25,
+      "sha256": "aa09770992e8525b7aeeb0d1f53b8e06fe89d92b187ab5c45735f69da44ce59f",
+      "source_title": "Usagi Ears Chiikawa GIF - Usagi ears Usagi Chiikawa - Discover & Share GIFs",
+      "title": "甩动长耳朵",
+      "group": "夸张形变",
+      "description": "耳朵先向两侧垂下，再快速向上和两侧甩动，形成夸张弧线。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "耳朵伸长时越出画面，重绘需预留更大的耳部活动范围。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 73,
+      "bytes": 1723352,
+      "action_key": "long-ear-shake",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://gifdb.com/gif/surprised-rabbit-wn2p0loetatsfm79.html",
+          "download_url": "https://gifdb.com/images/branded/high/surprised-rabbit-wn2p0loetatsfm79.gif",
+          "candidate_id": "GD-G22"
+        }
+      ],
+      "candidate_id": "tenor-026",
+      "file": "actions/long-ear-shake/U091-01.gif",
+      "poster": "actions/long-ear-shake/U091-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "快速翻转或形变期间减弱/暂停瞳孔追踪，恢复稳定姿态后自然回看鼠标。",
+  "production_status": "动作参考，尚未重绘分层"
+}

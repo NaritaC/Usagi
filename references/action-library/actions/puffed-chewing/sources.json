@@ -1,0 +1,52 @@
+{
+  "id": "U071",
+  "key": "puffed-chewing",
+  "title": "大口吞食与鼓腮",
+  "group": "进食与喝水",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U071-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-eat-eating-gif-2537034999834128683",
+      "download_url": "https://media1.tenor.com/m/IzVb4_vYsSsAAAAC/chiikawa-usagi.gif",
+      "width": 400,
+      "height": 430,
+      "frames": 46,
+      "duration_seconds": 3.07,
+      "sha256": "b7372f21918ca67782dad95bb64ae13d1b4147d52dbed9df720e45f6c149b8d5",
+      "source_title": "Chiikawa Usagi GIF - Chiikawa Usagi Eat - Discover & Share GIFs",
+      "title": "大口吞食与鼓腮",
+      "group": "进食与喝水",
+      "description": "举起大块食物仰头吞咽，回到正面后鼓腮咀嚼。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "右边缘有其他角色，薄饼遮住口鼻；手、食物和嘴应分层。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 46,
+      "bytes": 2193264,
+      "action_key": "puffed-chewing",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://usagi-project.vercel.app/",
+          "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424410660-uewxnpa5ty.webp",
+          "candidate_id": "G016"
+        },
+        {
+          "source_page": "https://gifdb.com/gif/rabbit-eating-bread-next-to-bear-v3uzz6vx95hqgk7m.html",
+          "download_url": "https://gifdb.com/images/branded/high/rabbit-eating-bread-next-to-bear-v3uzz6vx95hqgk7m.gif",
+          "candidate_id": "GD-G30"
+        }
+      ],
+      "candidate_id": "tenor-003",
+      "file": "actions/puffed-chewing/U071-01.gif",
+      "poster": "actions/puffed-chewing/U071-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "先保证嘴与食物接触，抬头或咀嚼间隙允许小幅视线跟随。",
+  "production_status": "动作参考，尚未重绘分层"
+}

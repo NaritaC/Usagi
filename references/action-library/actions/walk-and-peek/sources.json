@@ -1,0 +1,40 @@
+{
+  "id": "U016",
+  "key": "walk-and-peek",
+  "title": "悄悄走近探头看",
+  "group": "跑动与移动",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U016-01",
+      "source_page": "https://tenor.com/view/usagi-crawling-peek-chiikawa-gif-12139492808367986282",
+      "download_url": "https://media1.tenor.com/m/qHgkZDQu1moAAAAC/usagi-crawling-peek.gif",
+      "width": 498,
+      "height": 308,
+      "frames": 72,
+      "duration_seconds": 3.65,
+      "sha256": "316baf3f6892617c44286745ab2b3151fdc8d16016f1501d853e60797b4a66b7",
+      "source_title": "Usagi Crawling Peek GIF - Usagi crawling Peek Chiikawa - Discover & Share GIFs",
+      "title": "悄悄走近探头看",
+      "group": "跑动与移动",
+      "description": "从画面右边侧身小步走入，逐渐放低身体，凑近亮处探头观察。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "场景光束照到脸上；开头部分身体在画面外。主体是侧身走近，未躺在地上滑动。",
+      "visual_review": "已目视检查24个均匀抽样帧。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 72,
+      "bytes": 3882370,
+      "action_key": "walk-and-peek",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-120",
+      "file": "actions/walk-and-peek/U016-01.gif",
+      "poster": "actions/walk-and-peek/U016-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

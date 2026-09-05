@@ -1,0 +1,70 @@
+{
+  "checked_on": "2026-09-06",
+  "action_count": 91,
+  "media_count": 97,
+  "full_decode_passed": 97,
+  "unique_original_hashes": 97,
+  "rejected_first_round_media_absent": true,
+  "accepted_first_round_media_preserved": [
+    "01",
+    "02",
+    "03",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "all_posters_decoded": true,
+  "per_action_folders_and_sources_exist": true,
+  "redraw_and_mouse_follow_notes_present": true,
+  "browser": {
+    "tests": [
+      {
+        "name": "initial 18 action cards",
+        "passed": true
+      },
+      {
+        "name": "ground motion searchable",
+        "passed": true
+      },
+      {
+        "name": "empty results handled",
+        "passed": true
+      },
+      {
+        "name": "sleep category filter",
+        "passed": true
+      },
+      {
+        "name": "seven approved action groups",
+        "passed": true
+      },
+      {
+        "name": "pause swaps to poster",
+        "passed": true
+      },
+      {
+        "name": "resume restores animated files",
+        "passed": true
+      },
+      {
+        "name": "variant changes actual media",
+        "passed": true
+      },
+      {
+        "name": "pagination changes records",
+        "passed": true
+      },
+      {
+        "name": "desktop no horizontal overflow",
+        "passed": true
+      }
+    ],
+    "title": "乌萨奇动作参考库",
+    "cards": 18,
+    "viewport": {
+      "width": 1432,
+      "height": 592
+    }
+  }
+}

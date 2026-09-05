@@ -1,0 +1,40 @@
+{
+  "id": "U039",
+  "key": "fold-arms",
+  "title": "抱臂张嘴",
+  "group": "互动与小动作",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424347481-p7yon7nsf9q.webp",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 1 页",
+      "id": "U039-01",
+      "sha256": "0238e93fb47b9c3ced441cb7afee43828d71915f69720da6d670a6dbbb224ddc",
+      "width": 300,
+      "height": 278,
+      "frames": 35,
+      "format": "WEBP",
+      "bytes": 122016,
+      "duration_seconds": 1.72,
+      "distinct_frames": 35,
+      "group": "互动与小动作",
+      "action_key": "fold-arms",
+      "title": "抱臂张嘴",
+      "description": "抱起双臂，嘴型与身体小幅晃动。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "下半身缺失，双臂交叠需单独绘制前后层。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G004",
+      "file": "actions/fold-arms/U039-01.webp",
+      "poster": "actions/fold-arms/U039-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

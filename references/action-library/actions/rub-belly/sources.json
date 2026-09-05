@@ -1,0 +1,54 @@
+{
+  "id": "U044",
+  "key": "rub-belly",
+  "title": "揉肚子与搓手",
+  "group": "互动与小动作",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U044-01",
+      "source_page": "https://www.sigstick.com/pack/jr0FZEfogF8OurQ8ZcVg-chiikawa-usagi",
+      "source_title": "Chiikawa Usagi",
+      "download_url": "https://cdn2.cdnstep.com/jr0FZEfogF8OurQ8ZcVg/12-1.png",
+      "width": 323,
+      "height": 323,
+      "frames": 15,
+      "duration_seconds": 0.6,
+      "sha256": "d47bb792ecc99ed73cd294d66a7cc6c379a85d86b5e73edc47188f0f5b8b7ee3",
+      "format": "GIF",
+      "title": "揉肚子与搓手",
+      "group": "互动与小动作",
+      "description": "坐姿下双手在腹部前绕动，身体配合晃动。",
+      "redraw_notes": "全身完整，低头幅度小；短循环可作为待机动作参考。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "source_kind": "第三方用户整理/转存，非官方发布页",
+      "verification": "全部帧完整解码，并按顺序联系表目视核验",
+      "inspection_sheet": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-round02-gifdb\\S13-allframes.jpg",
+      "format_note": "远程URL以.png结尾，实际内容经文件头和解码确认是GIF；本地副本改用.gif后缀，字节不变。",
+      "action_key": "rub-belly",
+      "review_status": "待用户确认",
+      "alternative_sources": [
+        {
+          "source_page": "https://usagi-project.vercel.app/",
+          "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745424411484-4kztnbsc4d.webp",
+          "candidate_id": "G054"
+        },
+        {
+          "source_page": "https://tenor.com/view/usagi-chiikawa-usagi-chiikawa-gif-10585675249492305903",
+          "download_url": "https://media1.tenor.com/m/kuffjdmiJ-8AAAAC/usagi-chiikawa.gif",
+          "candidate_id": "tenor-022"
+        }
+      ],
+      "candidate_id": "GD-S13",
+      "file": "actions/rub-belly/U044-01.gif",
+      "poster": "actions/rub-belly/U044-01-preview.jpg",
+      "has_audio": false,
+      "bytes": 460813,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

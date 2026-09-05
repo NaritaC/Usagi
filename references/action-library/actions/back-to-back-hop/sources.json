@@ -1,0 +1,40 @@
+{
+  "id": "U028",
+  "key": "back-to-back-hop",
+  "title": "背靠伙伴左右蹦",
+  "group": "舞蹈与嬉戏",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U028-01",
+      "source_page": "https://tenor.com/view/funny-silly-cute-usagi-chiikawa-gif-14626638772679896266",
+      "download_url": "https://media1.tenor.com/m/yvxCd--KbMoAAAAC/funny-silly.gif",
+      "width": 498,
+      "height": 498,
+      "frames": 30,
+      "duration_seconds": 3.0,
+      "sha256": "85ce98cb98d3f0b537409d3f015ccf7000c96819ace610dea51908927602bdf6",
+      "source_title": "Funny Silly GIF - Funny Silly Cute - Discover & Share GIFs",
+      "title": "背靠伙伴左右蹦",
+      "group": "舞蹈与嬉戏",
+      "description": "与吉伊背靠背小幅蹦跳、左右踩步，身体来回倾斜。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "另一角色与背部接触，需补出接触区域轮廓。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 30,
+      "bytes": 3109947,
+      "action_key": "back-to-back-hop",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-021",
+      "file": "actions/back-to-back-hop/U028-01.gif",
+      "poster": "actions/back-to-back-hop/U028-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

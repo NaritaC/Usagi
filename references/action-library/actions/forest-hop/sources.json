@@ -1,0 +1,40 @@
+{
+  "id": "U010",
+  "key": "forest-hop",
+  "title": "树林里转身跳跑",
+  "group": "跑动与移动",
+  "approved": false,
+  "assets": [
+    {
+      "id": "U010-01",
+      "source_page": "https://tenor.com/view/chiikawa-usagi-hachiware-run-running-gif-3743378263792645053",
+      "download_url": "https://media1.tenor.com/m/M_MmsplHc70AAAAC/chiikawa-usagi.gif",
+      "width": 498,
+      "height": 284,
+      "frames": 62,
+      "duration_seconds": 2.06,
+      "sha256": "79591a1d2444b4cbc1daf1eed86b0aad5d42f46bd9c879e5e10dec35829edf58",
+      "source_title": "Chiikawa Usagi GIF - Chiikawa Usagi Hachiware - Discover & Share GIFs",
+      "title": "树林里转身跳跑",
+      "group": "跑动与移动",
+      "description": "在伙伴身边抬起身体跳起，转到正面，再朝镜头方向跑来。",
+      "body_visibility": "full",
+      "camera_motion": "moving",
+      "redraw_notes": "镜头与角色距离明显变化，末尾离开画面；作为起跑和腾空动作参考。",
+      "visual_review": "已目视检查均匀抽样帧；复杂动作加密采样。",
+      "source_type": "Tenor 用户上传；官方原片出处未逐一核验。",
+      "distinct_frames": 62,
+      "bytes": 3797477,
+      "action_key": "forest-hop",
+      "review_status": "待用户确认",
+      "candidate_id": "tenor-044",
+      "file": "actions/forest-hop/U010-01.gif",
+      "poster": "actions/forest-hop/U010-01-preview.jpg",
+      "format": "GIF",
+      "has_audio": false,
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

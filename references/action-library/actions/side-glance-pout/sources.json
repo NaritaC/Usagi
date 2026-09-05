@@ -1,0 +1,40 @@
+{
+  "id": "U053",
+  "key": "side-glance-pout",
+  "title": "侧目鼓嘴",
+  "group": "表情与反应",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745570858797-bny8xr83s9c.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 2 页",
+      "id": "U053-01",
+      "sha256": "7d8e41369357b348ed75e7470512555610ecddd9b87f60fa0560006368093367",
+      "width": 240,
+      "height": 240,
+      "frames": 24,
+      "format": "GIF",
+      "bytes": 99498,
+      "duration_seconds": 2.4,
+      "distinct_frames": 24,
+      "group": "表情与反应",
+      "action_key": "side-glance-pout",
+      "title": "侧目鼓嘴",
+      "description": "身体朝前，眼睛与嘴巴向侧面偏转，手臂轻微动作。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "只见上半身；需补全身体与独立瞳孔。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G029",
+      "file": "actions/side-glance-pout/U053-01.gif",
+      "poster": "actions/side-glance-pout/U053-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

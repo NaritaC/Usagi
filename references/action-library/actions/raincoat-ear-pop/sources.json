@@ -1,0 +1,40 @@
+{
+  "id": "U086",
+  "key": "raincoat-ear-pop",
+  "title": "雨衣里弹出耳朵",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1746973723591-ijkusqr7eqc.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 3 页",
+      "id": "U086-01",
+      "sha256": "71c2dffe2f67a550bcff2225f1dad251c2860fd0bed887c8dbba75c5c6fdccb7",
+      "width": 220,
+      "height": 220,
+      "frames": 26,
+      "format": "GIF",
+      "bytes": 269627,
+      "duration_seconds": 2.6,
+      "distinct_frames": 26,
+      "group": "服装与形态",
+      "action_key": "raincoat-ear-pop",
+      "title": "雨衣里弹出耳朵",
+      "description": "穿着雨衣站在雨中，两只耳朵从帽子上弹出。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "雨滴单独绘制；雨衣、帽沿和耳朵拆层。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G046",
+      "file": "actions/raincoat-ear-pop/U086-01.gif",
+      "poster": "actions/raincoat-ear-pop/U086-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

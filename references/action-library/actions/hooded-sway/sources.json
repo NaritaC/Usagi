@@ -1,0 +1,40 @@
+{
+  "id": "U082",
+  "key": "hooded-sway",
+  "title": "套头服侧身摇晃",
+  "group": "服装与形态",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745600238476-akhg34x3x0s.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 4 页",
+      "id": "U082-01",
+      "sha256": "065019ed79dbd16f2fe2f7b8bd49a43e5ffa61e9a1356ee08afdb50e5674f864",
+      "width": 720,
+      "height": 540,
+      "frames": 16,
+      "format": "GIF",
+      "bytes": 936439,
+      "duration_seconds": 1.8,
+      "distinct_frames": 16,
+      "group": "服装与形态",
+      "action_key": "hooded-sway",
+      "title": "套头服侧身摇晃",
+      "description": "穿套头服装朝侧面摇晃，眼睛观察侧方。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "气泡遮挡右侧且下半身裁切；补全服装并独立绘眼睛。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G062",
+      "file": "actions/hooded-sway/U082-01.gif",
+      "poster": "actions/hooded-sway/U082-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

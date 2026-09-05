@@ -1,0 +1,40 @@
+{
+  "id": "U041",
+  "key": "pat-friend",
+  "title": "拍打面前角色",
+  "group": "互动与小动作",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1753718508402-nxxu0mj1amo.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 4 页",
+      "id": "U041-01",
+      "sha256": "b9a2e3abf8bb4c64d9b01bff3b105e677292dd22d822090f3125083f5409b08a",
+      "width": 540,
+      "height": 540,
+      "frames": 16,
+      "format": "GIF",
+      "bytes": 759648,
+      "duration_seconds": 2.0,
+      "distinct_frames": 16,
+      "group": "互动与小动作",
+      "action_key": "pat-friend",
+      "title": "拍打面前角色",
+      "description": "站在同伴后方，抬手拍打同伴头部。",
+      "body_visibility": "partial",
+      "camera_motion": "fixed",
+      "redraw_notes": "前景角色遮挡下半身；重画伸手触碰的独立动作。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "candidate_id": "G056",
+      "file": "actions/pat-friend/U041-01.gif",
+      "poster": "actions/pat-friend/U041-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}

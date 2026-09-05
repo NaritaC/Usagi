@@ -1,0 +1,47 @@
+{
+  "id": "U027",
+  "key": "throw-beetle",
+  "title": "举起并摔下小甲虫",
+  "group": "挥棒与道具",
+  "approved": false,
+  "assets": [
+    {
+      "download_url": "https://usagi-project.vercel.app/api/cdn/usagi/1745428744731-exckb1xhd0f.gif",
+      "source_page": "https://usagi-project.vercel.app/",
+      "source_location": "最受欢迎排序，第 1 页",
+      "id": "U027-01",
+      "sha256": "3b04cd66446234d7cea32796ae479a24d6dd1cbed906b535a03530f151685ff6",
+      "width": 400,
+      "height": 400,
+      "frames": 19,
+      "format": "GIF",
+      "bytes": 402553,
+      "duration_seconds": 2.47,
+      "distinct_frames": 19,
+      "group": "挥棒与道具",
+      "action_key": "throw-beetle",
+      "title": "举起并摔下小甲虫",
+      "description": "举起小甲虫，再弯腰把它摔向地面。",
+      "body_visibility": "full",
+      "camera_motion": "fixed",
+      "redraw_notes": "身旁有其他角色，手与甲虫交叠；重画道具和身体接触帧。",
+      "review_status": "待用户确认",
+      "visual_check": "已查看多时间点帧，G058额外查看所有21帧。",
+      "alternative_sources": [
+        {
+          "source_page": "https://tenor.com/view/chikabu-kabutomushi-beetle-chiikawa-usagi-gif-12306409847471366698",
+          "download_url": "https://media1.tenor.com/m/qskmjdrmYioAAAAC/chikabu-kabutomushi.gif",
+          "candidate_id": "tenor-098"
+        }
+      ],
+      "candidate_id": "G013",
+      "file": "actions/throw-beetle/U027-01.gif",
+      "poster": "actions/throw-beetle/U027-01-preview.jpg",
+      "has_audio": false,
+      "source_type": "第三方用户上传/合集，官方原片出处未逐一核验",
+      "downloaded_on": "2026-09-06"
+    }
+  ],
+  "follow_notes": "稳定姿态可用瞳孔小幅跟随，头部和身体低幅响应；背身时通过转头/转身表达。",
+  "production_status": "动作参考，尚未重绘分层"
+}
