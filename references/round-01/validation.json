@@ -1,0 +1,15 @@
+{
+  "checked_on": "2026-09-06",
+  "source_media_count": 10,
+  "animated_images_fully_decoded": 9,
+  "video_fully_decoded": 1,
+  "video_codec": "H.264 Constrained Baseline / yuv420p + AAC",
+  "original_media_hashes_verified": true,
+  "all_local_html_links_exist": true,
+  "video_preview_poster_decodes": true,
+  "browser_card_count": 10,
+  "browser_animated_images_loaded": 9,
+  "desktop_horizontal_overflow": false,
+  "browser_video_note": "后台标签下延迟加载，未确认浏览器播放；已用 FFmpeg 完整解码视频与音轨。具体发音待用户试听。",
+  "visual_inspection": "逐帧查看候选动作，检查浏览页桌面截图；01 为脸部触地弹起继续跑，03 为挥棒而非拿棒跑。"
+}
