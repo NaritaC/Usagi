@@ -1,0 +1,371 @@
+{
+  "created_on": "2026-09-06",
+  "tool": "built-in imagegen",
+  "purpose": "三组白底姿态与形象一致性评审",
+  "production_ready": false,
+  "live2d_model_created": false,
+  "background": "opaque white; no alpha",
+  "corrections": [
+    "原始动图作为形象依据，不用 GitHub 桌宠画稿",
+    "白色圆形毛球尾巴",
+    "正面嘴巴下方独立短弧线",
+    "缩短躯干、减弱腰线，身体更短圆饱满",
+    "眼部与头部微动共同表达视线；完整版采用 Live2D"
+  ],
+  "preview_alignment": "取姿态原像素，居中并底部对齐，不拉伸或插帧；不是正式根运动",
+  "groups": [
+    {
+      "id": "01",
+      "title": "待机轻微摆头",
+      "sheet": "01-attention-v3.png",
+      "revision": "v3-roundness",
+      "review_status": "用户已认可（形象与比例）",
+      "review_focus": "重点看嘴下短弧线、眉眼、腮红和短圆的身体轮廓。",
+      "source_ids": [
+        "U006",
+        "U001"
+      ],
+      "source_media": "../../references/action-library/actions/run-approach/U006-01.gif",
+      "source_note": "正面形象依据迎面跑来的原始动图；轻微摆头与眨眼为本轮姿态设计。",
+      "sources": [
+        {
+          "action_id": "U006",
+          "file": "../../references/action-library/actions/run-approach/U006-01.gif",
+          "source_page": "https://usagi-project.vercel.app/"
+        },
+        {
+          "action_id": "U001",
+          "file": "../../references/action-library/actions/run-bounce/U001-01.webp",
+          "source_page": "https://usagi-project.vercel.app/"
+        }
+      ],
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "sha256": "e5e88671fe015d74c5dd2ec6a8f151ebadaf4a4d81cb55daeaf063b9c1a4c781",
+      "grid": [
+        3,
+        2
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            86,
+            27,
+            350,
+            479
+          ],
+          "duration_ms": 360,
+          "cell_sha256": "93790e63ed6634e1b1aa2a5b4f0aa5e36cae5c4c4d983a9927da7c9cd992d586"
+        },
+        {
+          "index": 1,
+          "crop": [
+            577,
+            27,
+            347,
+            480
+          ],
+          "duration_ms": 200,
+          "cell_sha256": "140cf36065736cf03caa1d666e1cc526e9ca71928d60633bd325ad501882ec2a"
+        },
+        {
+          "index": 2,
+          "crop": [
+            1057,
+            27,
+            351,
+            480
+          ],
+          "duration_ms": 140,
+          "cell_sha256": "4a4d619abfcf12e9eb12f3dea9d4d06deece4ec49949d8e0cb2f13961785a4da"
+        },
+        {
+          "index": 3,
+          "crop": [
+            86,
+            513,
+            348,
+            479
+          ],
+          "duration_ms": 160,
+          "cell_sha256": "861314d29c5cc0517487cc357c072be2056d70b3250f83734a4a20d15b0dd3fe"
+        },
+        {
+          "index": 4,
+          "crop": [
+            581,
+            513,
+            349,
+            479
+          ],
+          "duration_ms": 240,
+          "cell_sha256": "301dd1cffeb47eb3a5cbc197d5800115bc2327587fb76ec61cfd715ddda91bcf"
+        },
+        {
+          "index": 5,
+          "crop": [
+            1062,
+            514,
+            351,
+            478
+          ],
+          "duration_ms": 320,
+          "cell_sha256": "8b360149be02e5b291069fd3a27a8645e3dac7a1c27aee2d9277a25b2075ff44"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "侧身跑步",
+      "sheet": "02-run-v3.png",
+      "revision": "v3-roundness",
+      "review_status": "用户已认可（形象与比例）",
+      "review_focus": "重点看侧脸、短躯干、脚步与白色圆毛球尾巴。",
+      "source_ids": [
+        "U001",
+        "U003"
+      ],
+      "source_media": "../../references/action-library/actions/run-bounce/U001-01.webp",
+      "source_note": "对照原始跑动的身体比例；本轮只试绘侧跑，不代表跑摔动作链已完成。",
+      "sources": [
+        {
+          "action_id": "U001",
+          "file": "../../references/action-library/actions/run-bounce/U001-01.webp",
+          "source_page": "https://usagi-project.vercel.app/"
+        },
+        {
+          "action_id": "U003",
+          "file": "../../references/action-library/actions/butt-pat/U003-01.gif",
+          "source_page": "https://tenor.com/view/usagi-dance-chiikawa-tease-hehe-gif-7163663705603193535"
+        }
+      ],
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "sha256": "1b875bab02beddfe861ad0e4e7d995dabc06be360b6599570c17aa8ce33cdc46",
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            85,
+            97,
+            299,
+            355
+          ],
+          "duration_ms": 120,
+          "cell_sha256": "24b30cc378c558f5a102595162684075abb0cc0c994b4ccc14713d1e5f313ccf"
+        },
+        {
+          "index": 1,
+          "crop": [
+            467,
+            96,
+            295,
+            342
+          ],
+          "duration_ms": 120,
+          "cell_sha256": "04baa5da9be6cbcf9356c743076c4ade3d6320746a9d6482fb3a9532f756cb2c"
+        },
+        {
+          "index": 2,
+          "crop": [
+            842,
+            99,
+            292,
+            340
+          ],
+          "duration_ms": 120,
+          "cell_sha256": "7bba7f33d3828bb36f8a268c5c5abe9a9ea30b0a4c101e13e1779c6fbdf6d98f"
+        },
+        {
+          "index": 3,
+          "crop": [
+            1193,
+            102,
+            294,
+            349
+          ],
+          "duration_ms": 120,
+          "cell_sha256": "cc106f138aa2f2de7e3b023fbced0e7b7d8f4aa33db3c1af9bfb2af67f63cd7b"
+        },
+        {
+          "index": 4,
+          "crop": [
+            86,
+            553,
+            297,
+            342
+          ],
+          "duration_ms": 120,
+          "cell_sha256": "8d29c8df629510dcfbbaaf03cf06c2999dfb33837ff7fdd8dcbdbbfc251fafa8"
+        },
+        {
+          "index": 5,
+          "crop": [
+            456,
+            550,
+            291,
+            348
+          ],
+          "duration_ms": 120,
+          "cell_sha256": "805f36dd6fcc347448a23212f0dd6602d77a6b71cfa6c992d3abb67e75b13fde"
+        },
+        {
+          "index": 6,
+          "crop": [
+            838,
+            565,
+            287,
+            337
+          ],
+          "duration_ms": 120,
+          "cell_sha256": "49971b1c106cf344c4aceb96bf1f080b8aadc2b5faf0ae9d293cc7ed81e5c442"
+        },
+        {
+          "index": 7,
+          "crop": [
+            1200,
+            556,
+            294,
+            342
+          ],
+          "duration_ms": 120,
+          "cell_sha256": "8330c5341f7699d163b303d93547b3a250edb30f2b5a16430633f61563172be3"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "背身拍屁屁",
+      "sheet": "03-butt-pat-v3.png",
+      "revision": "v3-roundness",
+      "review_status": "用户已认可（形象与比例）",
+      "review_focus": "重点看背面的圆润程度、尾巴位置与转头后的形象。",
+      "source_ids": [
+        "U003"
+      ],
+      "source_media": "../../references/action-library/actions/butt-pat/U003-01.gif",
+      "source_note": "依据这份原始动图确认白色圆形毛球尾巴；手部与转头衔接仍是姿态草稿。",
+      "sources": [
+        {
+          "action_id": "U003",
+          "file": "../../references/action-library/actions/butt-pat/U003-01.gif",
+          "source_page": "https://tenor.com/view/usagi-dance-chiikawa-tease-hehe-gif-7163663705603193535"
+        }
+      ],
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "sha256": "b91ae8a261035eabd5f798bb8d0f9c27108165e6811ae102e9cf889f2e656910",
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "crop": [
+            57,
+            66,
+            278,
+            404
+          ],
+          "duration_ms": 200,
+          "cell_sha256": "c2a9004ce7c54ef7f3d2dc8cdae3574b17f15646da06402664e85c6db30618bb"
+        },
+        {
+          "index": 1,
+          "crop": [
+            440,
+            66,
+            274,
+            404
+          ],
+          "duration_ms": 150,
+          "cell_sha256": "bd6b7786f1326b5a88bccbea4885a9dbdd03329387b30d5a24d7a4f3188cd077"
+        },
+        {
+          "index": 2,
+          "crop": [
+            811,
+            65,
+            276,
+            405
+          ],
+          "duration_ms": 130,
+          "cell_sha256": "5bde26821c781fbe5c575e681654937efd5c91d6766c94a0c9f29808c5be9fd5"
+        },
+        {
+          "index": 3,
+          "crop": [
+            1175,
+            63,
+            276,
+            406
+          ],
+          "duration_ms": 150,
+          "cell_sha256": "170c9816b3f3d49717fcd53a22f55b33c955699a2c20f0041d55bfc23de91b76"
+        },
+        {
+          "index": 4,
+          "crop": [
+            60,
+            528,
+            275,
+            406
+          ],
+          "duration_ms": 220,
+          "cell_sha256": "b36645d2ed736d18624c8df6b19c7bdbf5abeacc239c91ef190ffdbc66293e4f"
+        },
+        {
+          "index": 5,
+          "crop": [
+            439,
+            531,
+            276,
+            403
+          ],
+          "duration_ms": 130,
+          "cell_sha256": "3b9640151d2f5d4c3457cf74562c571896e1a6caad824a8f14912d23830c4383"
+        },
+        {
+          "index": 6,
+          "crop": [
+            804,
+            531,
+            276,
+            403
+          ],
+          "duration_ms": 170,
+          "cell_sha256": "8ae48028b44c20f89b663b891f3140b273afdd30b68c5d9f5fb9ac15e09fa55d"
+        },
+        {
+          "index": 7,
+          "crop": [
+            1178,
+            531,
+            276,
+            403
+          ],
+          "duration_ms": 230,
+          "cell_sha256": "0696c4bc5b29fafac9840d58d100913b6bbdc8c03bc7b4366caa3f45e6cf0f32"
+        }
+      ]
+    }
+  ],
+  "user_approval": {
+    "date": "2026-09-06",
+    "quote": "可以，这一版已经达到我的要求",
+    "revision": "v3-roundness",
+    "scope": "三组形象、圆润比例和造型基准；模型与完整动画功能另行验收"
+  }
+}

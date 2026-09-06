@@ -1,12 +1,14 @@
 {
   "checked_on": "2026-09-06",
-  "scope": "需求文档与引用；未测试尚未制作的桌宠功能",
+  "scope": "v0.3 requirements and user approval record; no pet runtime created",
   "files_checked": [
     "README.md",
     "docs/PRD.md",
-    "docs/reference-projects.md"
+    "docs/reference-projects.md",
+    "art/character-spec.md",
+    "art/redraw-round-01/README.md"
   ],
-  "local_links_checked": 27,
+  "local_links_checked": 44,
   "anchors_checked": 2,
   "catalog_actions": 91,
   "original_animations": 97,
@@ -23,8 +25,19 @@
     "resolved": [
       "区分宿主不提供状态触发入口与尚未执行本应可执行的测试",
       "把第二阶段 Windows 验收改为在启动时确认的目标系统范围"
-    ]
+    ],
+    "applies_to": "v0.1 original phase split; no new independent reader run for v0.2"
   },
   "failures": [],
-  "future_pet_runtime_tests": "尚未制作或安装，本次不声称通过"
+  "future_pet_runtime_tests": "尚未制作或安装，本次不声称通过",
+  "document_version": "v0.3",
+  "v0_2_requirements_checked": [
+    "Live2D selected for phase 2",
+    "head and eye motion jointly express gaze",
+    "white round fur-ball tail",
+    "short curve below mouth",
+    "short round body",
+    "three trial groups pending user review"
+  ],
+  "v0_3_update": "User approved the three v3 designs; canonical image hashes preserved"
 }

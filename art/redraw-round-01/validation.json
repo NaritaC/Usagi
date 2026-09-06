@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-09-06",
+  "revision": "v3-roundness",
+  "local_links_checked": 44,
+  "anchors_checked": 2,
+  "groups": [
+    {
+      "id": "01",
+      "file": "01-attention-v3.png",
+      "decoded": true,
+      "poses": 6,
+      "alpha": false,
+      "status": "white-background review draft; not production"
+    },
+    {
+      "id": "02",
+      "file": "02-run-v3.png",
+      "decoded": true,
+      "poses": 8,
+      "alpha": false,
+      "status": "white-background review draft; not production"
+    },
+    {
+      "id": "03",
+      "file": "03-butt-pat-v3.png",
+      "decoded": true,
+      "poses": 8,
+      "alpha": false,
+      "status": "white-background review draft; not production"
+    }
+  ],
+  "browser_validation": "browser-validation.json",
+  "visual_review": {
+    "front_short_curve_below_mouth": "present in all six front poses, inspected",
+    "white_round_tail": "present in all visible side/back poses, inspected",
+    "proportions": "v3 shorter/full body accepted by user",
+    "source_basis": "approved original animation frames, not the two GitHub pet images",
+    "known_limits": [
+      "opaque RGB artwork, no alpha or layers",
+      "key-pose drafts; not finished smooth motion or Live2D",
+      "production motion needs gait and hand-transition cleanup while preserving the approved identity"
+    ]
+  },
+  "errors": [],
+  "production_ready": false,
+  "user_identity_approval": "approved: v3-roundness, 2026-09-06",
+  "approval_file": "approval.json"
+}

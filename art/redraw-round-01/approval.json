@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-06",
+  "quote": "可以，这一版已经达到我的要求",
+  "revision": "v3-roundness",
+  "scope": "三组形象、圆润比例和造型基准；模型与完整动画功能另行验收",
+  "canonical_art": [
+    {
+      "id": "01",
+      "title": "待机轻微摆头",
+      "file": "01-attention-v3.png",
+      "sha256": "e5e88671fe015d74c5dd2ec6a8f151ebadaf4a4d81cb55daeaf063b9c1a4c781"
+    },
+    {
+      "id": "02",
+      "title": "侧身跑步",
+      "file": "02-run-v3.png",
+      "sha256": "1b875bab02beddfe861ad0e4e7d995dabc06be360b6599570c17aa8ce33cdc46"
+    },
+    {
+      "id": "03",
+      "title": "背身拍屁屁",
+      "file": "03-butt-pat-v3.png",
+      "sha256": "b91ae8a261035eabd5f798bb8d0f9c27108165e6811ae102e9cf889f2e656910"
+    }
+  ],
+  "fixed_character_details": [
+    "短圆饱满的身体与弱腰线",
+    "嘴巴下方独立短弧线",
+    "白色圆形毛球尾巴",
+    "原始动图的角色形象，非 GitHub 桌宠画稿"
+  ],
+  "future_product": "Codex 图集先交付；完整版采用 Live2D，视线包含眼头联动",
+  "production_ready": false
+}

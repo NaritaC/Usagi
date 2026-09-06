@@ -1,0 +1,63 @@
+{
+  "tests": [
+    {
+      "name": "three current sheets loaded",
+      "passed": true
+    },
+    {
+      "name": "22 review poses",
+      "passed": true
+    },
+    {
+      "name": "play all",
+      "passed": true
+    },
+    {
+      "name": "animation advances with controlled frame clock",
+      "passed": true
+    },
+    {
+      "name": "pause retains frames",
+      "passed": true
+    },
+    {
+      "name": "scrub selects a frame and pauses",
+      "passed": true
+    },
+    {
+      "name": "next frame",
+      "passed": true
+    },
+    {
+      "name": "next wraps to first",
+      "passed": true
+    },
+    {
+      "name": "previous wraps to last",
+      "passed": true
+    },
+    {
+      "name": "speed changes",
+      "passed": true
+    },
+    {
+      "name": "all 22 poses render",
+      "passed": true
+    },
+    {
+      "name": "source images loaded",
+      "passed": true
+    },
+    {
+      "name": "desktop no horizontal overflow",
+      "passed": true
+    }
+  ],
+  "visibility": "hidden",
+  "clock": "controlled requestAnimationFrame timestamps; hidden research tab",
+  "runtime_wall_clock_playback": "not measured in hidden tab",
+  "viewport": {
+    "width": 1432,
+    "height": 597
+  }
+}
