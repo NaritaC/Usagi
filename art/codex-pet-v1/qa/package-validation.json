@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "size": [
+    1536,
+    1872
+  ],
+  "unique_frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6
+  ],
+  "transparent_blank_cells": 15,
+  "blue_spill_pixels": 0,
+  "sha256": "d44a0536c348b17751aae2c3d3ce452609f3222f04aa4acf9881f383105b0086",
+  "installed_hash_matches": true,
+  "all_9_animated_previews_decode": true
+}

@@ -1,10 +1,10 @@
 # 乌萨奇桌宠产品需求文档
 
-版本：v0.3 · 日期：2026-09-06 · 状态：两阶段方向与首轮三组 v3 形象均已获用户认可
+版本：v0.4 · 日期：2026-09-06 · 状态：v3 形象已获认可，第一阶段透明包已制作并安装，宿主最终试用待用户确认
 
 本项目分两阶段交付：**第一阶段，让用户先用上 Codex 里的乌萨奇桌宠；第二阶段，再做不依赖 Codex 的完整桌宠程序。** 第一阶段有自己的完成标准，不需要等第二阶段完成才能使用。
 
-当前已完成动作素材整理、参考项目研究和[三组形象重绘样稿](../art/redraw-round-01/index.html)；本文定义后续交付，不表示 Codex 宠物已经安装或 Live2D 程序已经实现。
+当前已完成动作素材整理、参考项目研究、[三组形象重绘样稿](../art/redraw-round-01/index.html)和[九组透明 Codex 动画](../pets/usagi-codex/index.html)。宠物包已安装到 `C:\Users\Narita\.codex\pets\usagi\`；[切换与试用说明](codex-usagi-setup.md)列出操作和验证范围。格式、逐帧视觉、控制器逻辑和安装测试通过；实际选择、唤醒与宿主互动尚未验收，Live2D 程序尚未实现。
 
 ## 1. 产品目标与已确认需求
 
@@ -56,7 +56,7 @@
 - 角色、耳尖、手脚与动作范围完整，背景真正透明，没有字幕、水印、场景残片或伪透明棋盘格。
 - 在 Codex 实际显示尺寸下依然可辨认；浅色、深色和复杂桌面背景上都没有明显白边或缺损。
 
-用户已认可本轮三组 v3 的基础形象与比例，[认可记录及文件指纹](../art/redraw-round-01/approval.json)固定这一基准。接下来展开透明动画样片与整套图集；已有认可不代表 Codex 宿主或 Live2D 运行功能已经通过验收。
+用户已认可本轮三组 v3 的基础形象与比例，[认可记录及文件指纹](../art/redraw-round-01/approval.json)固定这一基准。已据此制作九组透明动画；原有认可不代表新增姿态已获用户认可，也不代表 Codex 宿主或 Live2D 运行功能已经通过验收。
 
 ### 3.2 九组动画的内容建议
 
@@ -74,7 +74,7 @@
 | running | 6 | 认真思考或忙碌的小动作 | 这是任务执行状态，不是脚下跑步 |
 | review | 6 | 专注查看、思考后轻微点头 | 表达审阅，与忙碌和等待有所区别 |
 
-共 57 个有效姿态格，另有 15 个空格。正式导出为 1536 × 1872 的透明 PNG/WebP，8 列 × 9 行，每格 192 × 208；多余格保持完全透明。格式与逐行时长见[研究附录](reference-projects.md#3-codex-第一阶段的格式依据)。[OpenAI 图集说明](https://github.com/openai/skills/blob/main/skills/.curated/hatch-pet/references/codex-pet-contract.md) · [OpenAI 状态说明](https://github.com/openai/skills/blob/main/skills/.curated/hatch-pet/references/animation-rows.md)
+共 57 个有效姿态格，另有 15 个空格。正式导出为 1536 × 1872 的透明 PNG/WebP，8 列 × 9 行，每格 192 × 208；多余格保持完全透明。本机 `26.901.5280.0` 同时支持九行版本 1 与十一行版本 2；本阶段交付已约定的九行版本 1。当前宿主将待机基础时长乘以 6，其他动作重复三次再进入待机，预览页已据此提供播放模式。基础逐行时长见[研究附录](reference-projects.md#3-codex-第一阶段的格式依据)。[OpenAI 图集说明](https://github.com/openai/skills/blob/main/skills/.curated/hatch-pet/references/codex-pet-contract.md) · [OpenAI 状态说明](https://github.com/openai/skills/blob/main/skills/.curated/hatch-pet/references/animation-rows.md)
 
 ### 3.3 第一阶段如何实现“连贯”
 
@@ -197,7 +197,7 @@
 
 ## 8. 后续顺序与尚待决定事项
 
-第一阶段 A 的形象确认已完成：[待机轻微摆头、侧身跑步和背身拍屁屁 v3](../art/redraw-round-01/index.html)均获用户认可。固定短圆轮廓、嘴下短弧线与白色圆毛球尾巴。下一步是 B：制作真正透明的待机与左右跑动样片，并按 Codex 时长检查，随后完成 C 和 D。完成第一阶段并可实际使用后，再进入第二阶段：先验证 Live2D 的眼头控制与接地，再实现动作连接，随后补齐丰富动作、声音和形态，最后整体测试交付。
+第一阶段 A 的形象确认已完成：[待机轻微摆头、侧身跑步和背身拍屁屁 v3](../art/redraw-round-01/index.html)均获用户认可，固定短圆轮廓、嘴下短弧线与白色圆毛球尾巴。B/C 的九组透明素材、文件检查与静态视觉复查已经完成；播放计时与控制逻辑通过离线测试。D 的本机文件安装已完成，下一步由用户按[切换说明](codex-usagi-setup.md)选择并唤醒，完成真实播放、点击、拖拽与任务状态的试用确认，当前不能标记全部验收完成。实际可用后，再进入第二阶段：先验证 Live2D 的眼头控制与接地，再实现动作连接，随后补齐丰富动作、声音和形态，最后整体测试交付。
 
 | 决定事项 | 何时需要 | 当前状态 |
 |---|---|---|

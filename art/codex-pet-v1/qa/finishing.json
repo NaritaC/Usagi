@@ -1,0 +1,704 @@
+{
+  "operation": "key-despill + row-stable framing; no new artwork",
+  "rows": [
+    {
+      "state": "idle",
+      "scale": 0.8,
+      "vertical_offset_scale": 0.8,
+      "baseline": 198,
+      "frames": [
+        {
+          "file": "art\\codex-pet-v1\\frames\\idle\\00.png",
+          "bbox": [
+            42,
+            40,
+            150,
+            198
+          ],
+          "despilled_pixels": 827,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\idle\\01.png",
+          "bbox": [
+            42,
+            40,
+            149,
+            198
+          ],
+          "despilled_pixels": 835,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\idle\\02.png",
+          "bbox": [
+            42,
+            40,
+            149,
+            198
+          ],
+          "despilled_pixels": 824,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\idle\\03.png",
+          "bbox": [
+            42,
+            40,
+            150,
+            198
+          ],
+          "despilled_pixels": 847,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\idle\\04.png",
+          "bbox": [
+            42,
+            40,
+            150,
+            198
+          ],
+          "despilled_pixels": 822,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\idle\\05.png",
+          "bbox": [
+            42,
+            40,
+            150,
+            198
+          ],
+          "despilled_pixels": 842,
+          "removed_speck_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "scale": 0.8,
+      "vertical_offset_scale": 0.8,
+      "baseline": 198,
+      "frames": [
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-right\\00.png",
+          "bbox": [
+            30,
+            42,
+            161,
+            198
+          ],
+          "despilled_pixels": 1232,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-right\\01.png",
+          "bbox": [
+            34,
+            41,
+            157,
+            191
+          ],
+          "despilled_pixels": 1099,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-right\\02.png",
+          "bbox": [
+            31,
+            40,
+            160,
+            196
+          ],
+          "despilled_pixels": 1217,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-right\\03.png",
+          "bbox": [
+            32,
+            42,
+            159,
+            197
+          ],
+          "despilled_pixels": 1149,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-right\\04.png",
+          "bbox": [
+            33,
+            42,
+            158,
+            196
+          ],
+          "despilled_pixels": 1123,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-right\\05.png",
+          "bbox": [
+            33,
+            44,
+            158,
+            192
+          ],
+          "despilled_pixels": 1148,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-right\\06.png",
+          "bbox": [
+            31,
+            44,
+            160,
+            198
+          ],
+          "despilled_pixels": 1128,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-right\\07.png",
+          "bbox": [
+            32,
+            46,
+            160,
+            195
+          ],
+          "despilled_pixels": 1112,
+          "removed_speck_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "scale": 0.8,
+      "vertical_offset_scale": 0.8,
+      "baseline": 198,
+      "frames": [
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-left\\00.png",
+          "bbox": [
+            31,
+            42,
+            161,
+            198
+          ],
+          "despilled_pixels": 1207,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-left\\01.png",
+          "bbox": [
+            34,
+            41,
+            157,
+            191
+          ],
+          "despilled_pixels": 1095,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-left\\02.png",
+          "bbox": [
+            32,
+            40,
+            159,
+            196
+          ],
+          "despilled_pixels": 1180,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-left\\03.png",
+          "bbox": [
+            32,
+            42,
+            159,
+            197
+          ],
+          "despilled_pixels": 1129,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-left\\04.png",
+          "bbox": [
+            27,
+            42,
+            165,
+            196
+          ],
+          "despilled_pixels": 1196,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-left\\05.png",
+          "bbox": [
+            29,
+            43,
+            163,
+            192
+          ],
+          "despilled_pixels": 1192,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-left\\06.png",
+          "bbox": [
+            36,
+            44,
+            155,
+            198
+          ],
+          "despilled_pixels": 1029,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running-left\\07.png",
+          "bbox": [
+            38,
+            46,
+            152,
+            195
+          ],
+          "despilled_pixels": 1006,
+          "removed_speck_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "scale": 0.8,
+      "vertical_offset_scale": 0.8,
+      "baseline": 198,
+      "frames": [
+        {
+          "file": "art\\codex-pet-v1\\frames\\waving\\00.png",
+          "bbox": [
+            43,
+            41,
+            148,
+            197
+          ],
+          "despilled_pixels": 605,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\waving\\01.png",
+          "bbox": [
+            43,
+            41,
+            148,
+            197
+          ],
+          "despilled_pixels": 600,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\waving\\02.png",
+          "bbox": [
+            43,
+            43,
+            148,
+            198
+          ],
+          "despilled_pixels": 608,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\waving\\03.png",
+          "bbox": [
+            43,
+            41,
+            148,
+            197
+          ],
+          "despilled_pixels": 613,
+          "removed_speck_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "scale": 1.18,
+      "vertical_offset_scale": 0.55,
+      "baseline": 198,
+      "frames": [
+        {
+          "file": "art\\codex-pet-v1\\frames\\jumping\\00.png",
+          "bbox": [
+            41,
+            71,
+            150,
+            198
+          ],
+          "despilled_pixels": 322,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\jumping\\01.png",
+          "bbox": [
+            38,
+            34,
+            154,
+            192
+          ],
+          "despilled_pixels": 354,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\jumping\\02.png",
+          "bbox": [
+            37,
+            5,
+            154,
+            163
+          ],
+          "despilled_pixels": 354,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\jumping\\03.png",
+          "bbox": [
+            39,
+            38,
+            152,
+            193
+          ],
+          "despilled_pixels": 406,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\jumping\\04.png",
+          "bbox": [
+            41,
+            71,
+            150,
+            198
+          ],
+          "despilled_pixels": 326,
+          "removed_speck_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "scale": 0.8,
+      "vertical_offset_scale": 0.8,
+      "baseline": 198,
+      "frames": [
+        {
+          "file": "art\\codex-pet-v1\\frames\\failed\\00.png",
+          "bbox": [
+            43,
+            39,
+            148,
+            197
+          ],
+          "despilled_pixels": 835,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\failed\\01.png",
+          "bbox": [
+            45,
+            57,
+            146,
+            197
+          ],
+          "despilled_pixels": 876,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\failed\\02.png",
+          "bbox": [
+            50,
+            95,
+            142,
+            197
+          ],
+          "despilled_pixels": 550,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\failed\\03.png",
+          "bbox": [
+            42,
+            120,
+            150,
+            197
+          ],
+          "despilled_pixels": 467,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\failed\\04.png",
+          "bbox": [
+            42,
+            96,
+            150,
+            198
+          ],
+          "despilled_pixels": 570,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\failed\\05.png",
+          "bbox": [
+            46,
+            54,
+            146,
+            196
+          ],
+          "despilled_pixels": 785,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\failed\\06.png",
+          "bbox": [
+            47,
+            46,
+            145,
+            198
+          ],
+          "despilled_pixels": 900,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\failed\\07.png",
+          "bbox": [
+            46,
+            47,
+            146,
+            198
+          ],
+          "despilled_pixels": 858,
+          "removed_speck_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "scale": 0.8,
+      "vertical_offset_scale": 0.8,
+      "baseline": 198,
+      "frames": [
+        {
+          "file": "art\\codex-pet-v1\\frames\\waiting\\00.png",
+          "bbox": [
+            45,
+            42,
+            147,
+            196
+          ],
+          "despilled_pixels": 687,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\waiting\\01.png",
+          "bbox": [
+            45,
+            40,
+            147,
+            196
+          ],
+          "despilled_pixels": 695,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\waiting\\02.png",
+          "bbox": [
+            45,
+            42,
+            146,
+            198
+          ],
+          "despilled_pixels": 737,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\waiting\\03.png",
+          "bbox": [
+            46,
+            42,
+            146,
+            196
+          ],
+          "despilled_pixels": 732,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\waiting\\04.png",
+          "bbox": [
+            43,
+            42,
+            149,
+            196
+          ],
+          "despilled_pixels": 726,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\waiting\\05.png",
+          "bbox": [
+            45,
+            42,
+            147,
+            196
+          ],
+          "despilled_pixels": 699,
+          "removed_speck_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "scale": 0.8,
+      "vertical_offset_scale": 0.8,
+      "baseline": 198,
+      "frames": [
+        {
+          "file": "art\\codex-pet-v1\\frames\\running\\00.png",
+          "bbox": [
+            39,
+            40,
+            152,
+            198
+          ],
+          "despilled_pixels": 831,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running\\01.png",
+          "bbox": [
+            39,
+            40,
+            152,
+            198
+          ],
+          "despilled_pixels": 827,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running\\02.png",
+          "bbox": [
+            39,
+            40,
+            152,
+            198
+          ],
+          "despilled_pixels": 837,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running\\03.png",
+          "bbox": [
+            39,
+            40,
+            152,
+            198
+          ],
+          "despilled_pixels": 824,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running\\04.png",
+          "bbox": [
+            39,
+            40,
+            152,
+            198
+          ],
+          "despilled_pixels": 827,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\running\\05.png",
+          "bbox": [
+            40,
+            40,
+            151,
+            198
+          ],
+          "despilled_pixels": 823,
+          "removed_speck_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "scale": 0.8,
+      "vertical_offset_scale": 0.8,
+      "baseline": 198,
+      "frames": [
+        {
+          "file": "art\\codex-pet-v1\\frames\\review\\00.png",
+          "bbox": [
+            41,
+            40,
+            151,
+            198
+          ],
+          "despilled_pixels": 811,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\review\\01.png",
+          "bbox": [
+            42,
+            40,
+            150,
+            198
+          ],
+          "despilled_pixels": 792,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\review\\02.png",
+          "bbox": [
+            43,
+            40,
+            149,
+            198
+          ],
+          "despilled_pixels": 802,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\review\\03.png",
+          "bbox": [
+            41,
+            40,
+            151,
+            198
+          ],
+          "despilled_pixels": 808,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\review\\04.png",
+          "bbox": [
+            42,
+            40,
+            150,
+            198
+          ],
+          "despilled_pixels": 822,
+          "removed_speck_pixels": 0
+        },
+        {
+          "file": "art\\codex-pet-v1\\frames\\review\\05.png",
+          "bbox": [
+            42,
+            40,
+            150,
+            198
+          ],
+          "despilled_pixels": 853,
+          "removed_speck_pixels": 0
+        }
+      ]
+    }
+  ]
+}

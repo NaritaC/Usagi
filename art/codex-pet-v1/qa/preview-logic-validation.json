@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "coverage": "offline controller tests with DOM double, not browser UI rendering",
+  "checks": [
+    "all 9 state cards and decoded atlas readiness",
+    "native idle duration is 1680 ms for first frame",
+    "host action repeats three times then idles",
+    "all 57 frames play for three complete loops without sampling an empty cell",
+    "global pause and resume preserve frame",
+    "scrubbing pauses a card on its own state even after host fallback",
+    "background selector updates preview surfaces",
+    "speed control affects animation delta",
+    "wrong dimensions and missing atlas show explicit errors"
+  ],
+  "browser_preview": "not opened: browser URL policy blocked local file; no workaround attempted"
+}

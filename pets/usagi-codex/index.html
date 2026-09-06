@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>乌萨奇 · Codex 宠物</title>
+<style>
+:root{font-family:system-ui,"Microsoft YaHei",sans-serif;color:#42362c;background:#faf7ef;font-synthesis:none}*{box-sizing:border-box}body{max-width:1120px;margin:auto;padding:40px 28px 60px}header{border-bottom:1px solid #ded6c7;padding-bottom:26px}.eyebrow{color:#957237;font-size:12px;letter-spacing:.16em}h1{font-size:36px;letter-spacing:-.04em;margin:12px 0}p{line-height:1.8;color:#776b5d;font-size:14px}a{color:#746030;text-underline-offset:4px}nav{display:flex;gap:22px;margin-top:18px;flex-wrap:wrap}.toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:24px 0}button,select{font:inherit;font-size:13px;border:1px solid #d8d0bf;border-radius:20px;background:#fffdf8;color:#493d2e;padding:8px 14px;cursor:pointer}button:hover,select:hover{border-color:#947d51}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #b39b5d;outline-offset:3px}.toolbar label{font-size:13px;color:#786e61}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{border:1px solid #e2d9ca;background:#fffcf6;border-radius:22px;overflow:hidden}.stage{height:240px;display:flex;align-items:center;justify-content:center;background:#f0e8d7}.stage canvas{width:160px;height:173.333px}.grid[data-background="dark"] .stage{background:#252a35}.grid[data-background="light"] .stage{background:#fff}.grid[data-background="checker"] .stage{background:repeating-conic-gradient(#e6dfd3 0 25%,#faf8f4 0 50%) 50%/24px 24px}.grid[data-background="desktop"] .stage{background:linear-gradient(25deg,transparent 35%,#698b8999 35%,#c9d3a588 60%,transparent 60%),linear-gradient(140deg,#f6d1aa,#94b7bf 55%,#586c81)}.card-body{padding:16px 19px 19px}.card-head{display:flex;justify-content:space-between;align-items:center;gap:8px}h2{font-size:17px;margin:0}.number{font-size:11px;color:#958574;font-variant-numeric:tabular-nums}.card p{font-size:12px;margin:8px 0 14px;min-height:22px}.controls{display:flex;gap:10px;align-items:center}.controls button{padding:5px 10px;font-size:12px}.controls input{min-width:40px;width:100%;accent-color:#9b834e}.frame{font-size:11px;color:#958574;min-width:25px;text-align:right}footer{margin-top:25px;border-top:1px solid #ded6c7;padding-top:12px}#status{font-size:12px}#status[data-error="true"]{color:#a42a22}@media(max-width:760px){body{padding:26px 16px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:30px}}@media(max-width:470px){.grid{grid-template-columns:1fr}.toolbar{gap:9px}}
+</style>
+<header>
+  <span class="eyebrow">USAGI / CODEX COMPANION</span>
+  <h1>把乌萨奇带到桌面上。</h1>
+  <p>沿用已认可的圆润形象，完成九组透明动画。下面可以逐帧查看，也可以换成你的桌面底色来看看。</p>
+  <nav><a href="../../docs/codex-usagi-setup.md">安装与切换说明</a><a href="spritesheet.webp" download>下载透明图集</a><a href="../../art/redraw-round-01/index.html">已认可的形象基准</a></nav>
+</header>
+<div class="toolbar">
+  <button id="toggle" type="button" aria-pressed="false">全部暂停</button>
+  <label>背景 <select id="background"><option value="checker">透明棋盘</option><option value="light">浅色</option><option value="dark">深色</option><option value="desktop">彩色桌面</option></select></label>
+  <label>播放 <select id="timing"><option value="host">Codex 节奏</option><option value="loop">逐组循环</option></select></label>
+  <label>速度 <select id="speed"><option value="1">正常</option><option value="0.5">慢速</option><option value="2">快速</option></select></label>
+</div>
+<main id="grid" class="grid" data-background="checker" aria-label="九组动画预览"></main>
+<footer>
+  <p id="status" role="status">正在读取透明图集…</p>
+  <p>“Codex 节奏”按本机版本播放：待机放慢，其他动作播放三遍后回到待机；“逐组循环”便于检查每组画稿。此页播放正式图集，没有添加补帧或鼠标跟随。</p>
+  <p>第一阶段使用 Codex 现有的点击、拖拽和任务提示。独立 Live2D、眼睛与头部共同跟随鼠标、底栏嬉戏和音效属于第二阶段。</p>
+</footer>
+<script src="preview.js"></script>
+</html>

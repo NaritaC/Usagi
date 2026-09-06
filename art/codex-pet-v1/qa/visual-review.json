@@ -1,0 +1,35 @@
+{
+  "review_type": "final_visual_qa",
+  "reviewed_at": "2026-09-06",
+  "scope": {
+    "canonical": "E:/Usagi/art/codex-pet-v1/references/canonical-base.png",
+    "contact_sheet": "E:/Usagi/art/codex-pet-v1/qa/contact-sheet.png",
+    "frames": "E:/Usagi/art/codex-pet-v1/frames",
+    "browser_preview": "E:/Usagi/pets/usagi-codex/index.html",
+    "mode": "static frame and contact-sheet review; GIF playback not verified"
+  },
+  "result": "pass",
+  "pass_checks": [
+    "Round body silhouette with no long torso drift",
+    "Canonical face identity retained, including independent curve beneath mouth",
+    "White round tail present and readable in directional running",
+    "No cropped limbs; all alpha bounds remain inside 192x208 frame",
+    "No large halos or stray chroma-key specks visible",
+    "Scale and grounded baseline are consistent across ordinary states; jump scale is intentionally larger"
+  ],
+  "resolved_issues": [
+    {
+      "severity": "P1 visual consistency",
+      "state": "running",
+      "frame": "E:/Usagi/art/codex-pet-v1/frames/running/05.png",
+      "observation": "Final working frame abruptly changes from front-facing busy gestures to a right-facing side pose with tail, matching directional running vocabulary.",
+      "action": "Replace running/05.png with a front-facing working pose consistent with running/00-04, or remove/re-time the side pose so the working loop never reads as directional running. Keep running-right/left as the only side-running states.",
+      "resolution": "Resolved in regenerated frames/running: all six working frames are now front-facing planted poses with distinct hand/gesture changes."
+    }
+  ],
+  "notes": [
+    "Frame-only QA; GIF tool playback was not verified.",
+    "No browser preview workaround was attempted; native app validation is outside this review.",
+    "No edits were made to source assets or app UI; this QA JSON was updated."
+  ]
+}

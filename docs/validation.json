@@ -1,14 +1,14 @@
 {
   "checked_on": "2026-09-06",
-  "scope": "v0.3 requirements and user approval record; no pet runtime created",
+  "scope": "v0.4 documents, transparent pet package installed; native trial pending",
   "files_checked": [
     "README.md",
-    "docs/PRD.md",
-    "docs/reference-projects.md",
-    "art/character-spec.md",
-    "art/redraw-round-01/README.md"
+    "docs\\PRD.md",
+    "docs\\codex-usagi-setup.md",
+    "art\\codex-pet-v1\\README.md",
+    "pets\\usagi-codex\\index.html"
   ],
-  "local_links_checked": 44,
+  "local_links_checked": 49,
   "anchors_checked": 2,
   "catalog_actions": 91,
   "original_animations": 97,
@@ -29,8 +29,8 @@
     "applies_to": "v0.1 original phase split; no new independent reader run for v0.2"
   },
   "failures": [],
-  "future_pet_runtime_tests": "尚未制作或安装，本次不声称通过",
-  "document_version": "v0.3",
+  "future_pet_runtime_tests": "文件安装通过；原生选择、唤醒、点击、拖拽与任务状态待用户试用确认",
+  "document_version": "v0.4",
   "v0_2_requirements_checked": [
     "Live2D selected for phase 2",
     "head and eye motion jointly express gaze",
@@ -39,5 +39,6 @@
     "short round body",
     "three trial groups pending user review"
   ],
-  "v0_3_update": "User approved the three v3 designs; canonical image hashes preserved"
+  "v0_3_update": "User approved the three v3 designs; canonical image hashes preserved",
+  "v0_4_update": "9 animation rows created, final static QA and offline controller tests pass, pet pack installed with matching hashes; actual runtime acceptance remains pending"
 }

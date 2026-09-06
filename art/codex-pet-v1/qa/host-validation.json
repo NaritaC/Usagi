@@ -1,0 +1,66 @@
+{
+  "app_version": "26.901.5280.0",
+  "window_title": "ChatGPT",
+  "os": "Windows",
+  "display_scaling": "not measured; native interactive acceptance pending",
+  "installed_directory": "C:/Users/Narita/.codex/pets/usagi",
+  "installed_pet_id": "custom:usagi",
+  "previous_selected_pet": "Dewey",
+  "menu_labels_observed": [
+    "设置",
+    "宠物",
+    "刷新",
+    "选择",
+    "唤醒虚拟宠物",
+    "打开文件夹"
+  ],
+  "ui_settings_page_observed": true,
+  "custom_pet_list_refreshed": false,
+  "usagi_selected": false,
+  "pet_woken": false,
+  "native_click_drag_and_task_states": "pending user trial",
+  "refresh_attempt": "window activation failed; no successful refresh claimed",
+  "automation_limit": "computer-use guidance forbids automating ChatGPT desktop UI; final selection and trial assigned to user",
+  "browser_preview_limit": "local file URL blocked by browser URL policy; no workaround attempted",
+  "loader_contract_from_installed_code": {
+    "metadata": [
+      "id optional",
+      "displayName optional",
+      "description optional",
+      "spritesheetPath default spritesheet.webp",
+      "spriteVersionNumber default 1"
+    ],
+    "supported_versions": {
+      "1": {
+        "width": 1536,
+        "height": 1872,
+        "rows": 9
+      },
+      "2": {
+        "width": 1536,
+        "height": 2288,
+        "rows": 11
+      }
+    },
+    "id_rule": "custom:<folder name>",
+    "state_counts": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6
+    ],
+    "idle_duration_multiplier": 6,
+    "non_idle_repeats_before_idle": 3
+  },
+  "source_modules": [
+    ".vite/build/src-VqXTPopo.js",
+    "webview/assets/app-initial-ffce11d82782.js",
+    "webview/assets/pets-settings-route-f26986f99ea1.js"
+  ],
+  "complete_phase1_runtime_acceptance": false
+}

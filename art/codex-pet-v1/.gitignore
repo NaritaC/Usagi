@@ -1,0 +1,5 @@
+# Intermediate diagnostics are retained locally; final review artifacts are tracked.
+frames-correction/
+qa/initial-*.png
+qa/installed-loader-evidence.json
+qa/installed-animation-evidence.json

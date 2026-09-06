@@ -1,0 +1,10 @@
+{
+  "tests": [
+    "fresh install and exact hashes",
+    "repeat install idempotent",
+    "changed existing version backed up",
+    "backup byte preservation"
+  ],
+  "passed": true,
+  "testDirectory": "C:\\Users\\Narita\\AppData\\Local\\Temp\\usagi-install-test-7e4fae68c6a14ff9886af26cf529fea8"
+}
