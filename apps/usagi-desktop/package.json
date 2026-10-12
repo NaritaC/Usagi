@@ -1,0 +1,35 @@
+{
+  "name": "usagi-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "独立运行的乌萨奇 Windows 桌宠",
+  "author": "NaritaC",
+  "main": "src/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "prepare-assets": "node scripts/prepare-assets.cjs",
+    "test": "node --test tests/*test.cjs",
+    "test:app": "node tests/app-smoke.cjs",
+    "build": "electron-builder --win dir",
+    "build:zip": "electron-builder --win zip"
+  },
+  "devDependencies": {
+    "electron": "44.7.0",
+    "electron-builder": "26.15.3",
+    "playwright": "1.64.0",
+    "pngjs": "7.0.0"
+  },
+  "build": {
+    "appId": "com.naritac.usagi.desktop",
+    "productName": "Usagi Desktop",
+    "directories": { "output": "dist" },
+    "files": ["src/**/*", "assets/**/*", "package.json"],
+    "asar": true,
+    "win": {
+      "target": ["zip"],
+      "icon": "assets/icon.ico",
+      "signExecutable": false
+    },
+    "artifactName": "Usagi-Desktop-${version}-Windows-${arch}.${ext}"
+  }
+}

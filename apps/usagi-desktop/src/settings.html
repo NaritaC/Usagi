@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>乌萨奇的小屋</title>
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow"><span class="dot"></span> USAGI DESKTOP <span class="edition">01</span></div>
+      <div class="intro"><div><h1>桌面上，<br>多一点快乐。</h1><p>让乌萨奇陪你待一会儿。</p></div><div class="portrait"><canvas id="preview" width="192" height="208" aria-label="乌萨奇动作预览"></canvas><span class="oval"></span></div></div>
+    </header>
+    <section class="preferences" aria-label="陪伴设置">
+      <label class="setting"><span><strong>散散步</strong><small>偶尔沿任务栏上方小跑</small></span><input id="roaming" type="checkbox" role="switch"><span class="switch" aria-hidden="true"></span></label>
+      <label class="setting"><span><strong>看看你</strong><small>安静时看向鼠标所在的方向</small></span><input id="lookAtCursor" type="checkbox" role="switch"><span class="switch" aria-hidden="true"></span></label>
+      <label class="setting"><span><strong>一直在身边</strong><small>显示在其他窗口上方</small></span><input id="alwaysOnTop" type="checkbox" role="switch"><span class="switch" aria-hidden="true"></span></label>
+      <label class="size-setting" for="scale"><span><strong>刚刚好的大小</strong><output id="scale-value">112 px</output></span><input id="scale" type="range" min="80" max="144" step="8" value="112"><span class="range-labels"><small>小小一只</small><small>默认与 Codex 一样大</small></span></label>
+    </section>
+    <section class="actions" aria-label="和乌萨奇互动">
+      <div class="section-label">打个招呼</div><div class="action-grid"><button data-action="waving">挥挥手 <span>↗</span></button><button data-action="jumping">跳一下 <span>↑</span></button><button data-action="waiting">陪我待会儿 <span>♡</span></button></div>
+    </section>
+    <div class="utility"><button id="pause">休息一下</button><button id="reset">回到主屏幕</button><button id="quit">退出桌宠</button></div>
+    <p id="save-status" role="status" aria-live="polite">设置会自动保存。</p>
+    <footer><p>点耳朵跳一跳，点脸挥挥手，拖动就能换个位置。<br>右键乌萨奇或双击托盘图标，可以再打开这里。</p><span>Made for a little company.</span></footer>
+  </main>
+  <script src="pet-core.js"></script>
+  <script src="settings-renderer.js"></script>
+</body>
+</html>

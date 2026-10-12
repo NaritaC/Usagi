@@ -1,0 +1,5 @@
+apps/usagi-desktop/node_modules/
+apps/usagi-desktop/dist/
+apps/usagi-desktop/test-results/
+apps/usagi-desktop/playwright-report/
+apps/usagi-desktop/.test-user-data/

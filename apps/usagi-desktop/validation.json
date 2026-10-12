@@ -1,0 +1,128 @@
+{
+  "version": "0.1.0",
+  "date": "2026-10-12",
+  "scope": "Windows standalone sprite app; Live2D deferred by user",
+  "defaultSize": {
+    "widthDIP": 112,
+    "heightDIP": 121,
+    "reference": "Installed Codex 26.1007.2314.0 default floating pet width:112, source aspect ratio 192/208",
+    "adjustableWidthDIP": [
+      80,
+      144
+    ]
+  },
+  "unitTests": {
+    "passed": 22,
+    "failed": 0,
+    "coverage": [
+      "grounding and resizing",
+      "negative monitor coordinates and display recovery",
+      "settings validation, persistence, corruption backup and legacy size migration",
+      "16-direction gaze and hysteresis",
+      "animation timing, interruption queues, pause and drag priority",
+      "one-hour deterministic state simulation"
+    ]
+  },
+  "sourceAppSmoke": {
+    "platform": "win32",
+    "checks": [
+      "actual transparent, non-focusable native window launches with correct work-area grounding",
+      "native hit mask follows rendered alpha while cursor gaze is disabled",
+      "global cursor drives the correct upward gaze pose",
+      "native action IPC plays and recovers from a complete jump",
+      "isolated native drag API, release, and re-grounding work",
+      "scaling stays grounded, autonomous running moves, and pause stops movement",
+      "settings controls save exact values and reject invalid input",
+      "settings and saved position survive a full app restart",
+      "quit shuts down the native process"
+    ],
+    "errors": [],
+    "startedAt": "2026-10-12T11:31:42.434Z",
+    "pointerMode": "isolated Electron pointer events and simulated global coordinates",
+    "runtime": {
+      "appVersion": "0.1.0",
+      "electron": "44.7.0",
+      "displays": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 810
+          },
+          "workArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 762
+          },
+          "scaleFactor": 2
+        }
+      ],
+      "packaged": false,
+      "windowsVersion": "10.0.26200"
+    },
+    "ok": true,
+    "finishedAt": "2026-10-12T11:31:53.715Z"
+  },
+  "packagedAppSmoke": {
+    "platform": "win32",
+    "checks": [
+      "actual transparent, non-focusable native window launches with correct work-area grounding",
+      "native hit mask follows rendered alpha while cursor gaze is disabled",
+      "global cursor drives the correct upward gaze pose",
+      "native action IPC plays and recovers from a complete jump",
+      "isolated native drag API, release, and re-grounding work",
+      "scaling stays grounded, autonomous running moves, and pause stops movement",
+      "settings controls save exact values and reject invalid input",
+      "settings and saved position survive a full app restart",
+      "quit shuts down the native process"
+    ],
+    "errors": [],
+    "startedAt": "2026-10-12T11:32:35.498Z",
+    "pointerMode": "isolated Electron pointer events and simulated global coordinates",
+    "runtime": {
+      "appVersion": "0.1.0",
+      "electron": "44.7.0",
+      "displays": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 810
+          },
+          "workArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 762
+          },
+          "scaleFactor": 2
+        }
+      ],
+      "packaged": true,
+      "windowsVersion": "10.0.26200"
+    },
+    "ok": true,
+    "finishedAt": "2026-10-12T11:32:51.217Z"
+  },
+  "nativePointerBeforeSizeChange": {
+    "ok": true,
+    "initialWidthDIP": 192,
+    "checksPassed": 9,
+    "finishedAt": "2026-10-12T11:18:36.217Z",
+    "note": "Real Windows pointer mask, gaze, drag and release succeeded before reducing default size; final 112px source and package were checked with isolated Electron input and simulated global coordinates to avoid interfering with the user."
+  },
+  "archive": {
+    "path": "dist/Usagi-Desktop-0.1.0-Windows-x64.zip",
+    "bytes": 156412743,
+    "sha256": "10360a3105fea28d9f7d2b21f12eb40004025dc4199b7eb87e33664073943870"
+  },
+  "limitations": [
+    "No Live2D layered source, model or editable motion project yet.",
+    "Gaze switches whole existing direction sprites; no independent eye/head parameters.",
+    "No audio, complete run-fall/staff/shape-change choreography yet.",
+    "Multiple physical monitors, taskbar auto-hide and side taskbars were not all exercised live."
+  ]
+}
