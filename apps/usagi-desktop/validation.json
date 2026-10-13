@@ -116,8 +116,8 @@
   },
   "archive": {
     "path": "dist/Usagi-Desktop-0.1.0-Windows-x64.zip",
-    "bytes": 156412770,
-    "sha256": "ee98537c5910135dd5b84cc00294e4259e7880f224c4a2465df4e74b7e137f6f"
+    "bytes": 156412803,
+    "sha256": "81763ea473431ebe88696cc0df43b57341e9b7f4710f08b39fccad0df0f10d29"
   },
   "limitations": [
     "No Live2D layered source, model or editable motion project yet.",
@@ -127,22 +127,28 @@
   ],
   "settingsPreviewUpdate": {
     "date": "2026-10-13",
-    "previousWidthCSS": 112,
-    "widthCSS": 136,
+    "previousWidthCSS": 136,
+    "widthCSS": 176,
+    "narrowWidthCSS": 160,
     "desktopWidthDIP": 112,
     "verification": {
       "ok": true,
       "desktopWidth": 112,
       "settingsPreview": {
-        "width": 136,
-        "height": 147.328125,
-        "canvasLeft": 319.5,
-        "canvasBottom": 218.828125,
+        "width": 176,
+        "height": 190.6640625,
+        "canvasLeft": 280,
+        "canvasBottom": 260.1640625,
         "titleRight": 236,
-        "portraitBottom": 227.5
+        "portraitBottom": 271.5
+      },
+      "narrowWindow": {
+        "width": 160,
+        "titleRight": 212,
+        "canvasLeft": 248
       },
       "packaged": true,
-      "checkedAt": "2026-10-13T06:09:35.028Z"
+      "checkedAt": "2026-10-13T06:16:36.957Z"
     }
   }
 }
