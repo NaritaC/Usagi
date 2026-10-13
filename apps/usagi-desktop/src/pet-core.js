@@ -11,6 +11,7 @@
   const DEADZONE = 18;
   const DIRECTION_STEP = 22.5;
   const DIRECTION_HYSTERESIS = 3.5;
+  const DRAG_IDLE_DELAY = 120;
   const ANIMATIONS = Object.freeze({
     idle: { row: 0, durations: [280, 110, 110, 140, 140, 320], label: "安静陪伴" },
     "running-right": { row: 1, durations: [120, 120, 120, 120, 120, 120, 120, 220], label: "向右跑" },
@@ -64,8 +65,11 @@
       this.random = typeof random === "function" ? random : Math.random;
       this.state = "idle";
       this.dragging = false;
+      this._dragDirection = 0;
+      this._dragLastHorizontalAt = -Infinity;
       this.direction = -1;
       this._lastNow = Number.isFinite(now) ? now : 0;
+      this._dragStartedAt = this._lastNow;
       this._startedAt = this._lastNow;
       this._mode = "idle";
       this._queuedAction = null;
@@ -147,18 +151,30 @@
       const value = Boolean(dragging);
       if (value === this.dragging) return this;
       this.dragging = value;
+      this._dragDirection = 0;
+      this._dragStartedAt = time;
+      this._dragLastHorizontalAt = -Infinity;
       this._idle(time);
       return this;
     }
 
     step(now, input = {}) {
       const time = this._time(now);
+      if (this.dragging) {
+        if (Number.isFinite(input.dragDx) && Math.abs(input.dragDx) >= 1) {
+          this._dragDirection = input.dragDx > 0 ? 1 : -1;
+          this._dragLastHorizontalAt = time;
+        }
+        this.state = time - this._dragLastHorizontalAt <= DRAG_IDLE_DELAY
+          ? this._dragDirection > 0 ? "running-right" : "running-left"
+          : "idle";
+        this.direction = -1;
+        // Native dragging owns window movement. Only the animation follows horizontal input.
+        const frame = frameAt(this.state, time - this._dragStartedAt);
+        return { state: this.state, ...frame, moving: false, speed: 0 };
+      }
       if (this.settings.paused) {
         return { state: "idle", row: 0, column: 0, moving: false, speed: 0, done: false };
-      }
-      if (this.dragging) {
-        const frame = frameAt("waiting", time - this._startedAt);
-        return { state: "waiting", ...frame, moving: false, speed: 0 };
       }
 
       let completed = false;
@@ -190,5 +206,5 @@
     }
   }
 
-  return { WIDTH, HEIGHT, ANIMATIONS, directionFromOffset, animationDuration, frameAt, PetController };
+  return { WIDTH, HEIGHT, ANIMATIONS, DRAG_IDLE_DELAY, directionFromOffset, animationDuration, frameAt, PetController };
 });

@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "date": "2026-10-12",
+  "version": "0.1.1",
+  "date": "2026-10-13",
   "scope": "Windows standalone sprite app; Live2D deferred by user",
   "defaultSize": {
     "widthDIP": 112,
@@ -12,7 +12,7 @@
     ]
   },
   "unitTests": {
-    "passed": 25,
+    "passed": 30,
     "failed": 0,
     "coverage": [
       "grounding and resizing",
@@ -21,7 +21,8 @@
       "16-direction gaze and hysteresis",
       "animation timing, interruption queues, pause and drag priority",
       "one-hour deterministic state simulation",
-      "application icon occupancy, DPI image layers, and original atlas preservation"
+      "application icon occupancy, DPI image layers, and original atlas preservation",
+      "directional manual dragging, stationary timeout, paused dragging and resumed autonomous roaming"
     ]
   },
   "sourceAppSmoke": {
@@ -31,17 +32,19 @@
       "native hit mask follows rendered alpha while cursor gaze is disabled",
       "global cursor drives the correct upward gaze pose",
       "native action IPC plays and recovers from a complete jump",
-      "isolated native drag API, release, and re-grounding work",
+      "all eight left-running frames exactly mirror the complete right-running character",
+      "manual drag follows left and right input and returns to idle when the pointer stops",
+      "real Windows pointer drag, release, and re-grounding work",
       "scaling stays grounded, autonomous running moves, and pause stops movement",
       "settings controls save exact values and reject invalid input",
       "settings and saved position survive a full app restart",
       "quit shuts down the native process"
     ],
     "errors": [],
-    "startedAt": "2026-10-12T11:31:42.434Z",
-    "pointerMode": "isolated Electron pointer events and simulated global coordinates",
+    "startedAt": "2026-10-13T07:39:42.709Z",
+    "pointerMode": "real Windows pointer",
     "runtime": {
-      "appVersion": "0.1.0",
+      "appVersion": "0.1.1",
       "electron": "44.7.0",
       "displays": [
         {
@@ -64,7 +67,7 @@
       "windowsVersion": "10.0.26200"
     },
     "ok": true,
-    "finishedAt": "2026-10-12T11:31:53.715Z"
+    "finishedAt": "2026-10-13T07:40:05.593Z"
   },
   "packagedAppSmoke": {
     "platform": "win32",
@@ -73,6 +76,8 @@
       "native hit mask follows rendered alpha while cursor gaze is disabled",
       "global cursor drives the correct upward gaze pose",
       "native action IPC plays and recovers from a complete jump",
+      "all eight left-running frames exactly mirror the complete right-running character",
+      "manual drag follows left and right input and returns to idle when the pointer stops",
       "isolated native drag API, release, and re-grounding work",
       "scaling stays grounded, autonomous running moves, and pause stops movement",
       "settings controls save exact values and reject invalid input",
@@ -80,10 +85,10 @@
       "quit shuts down the native process"
     ],
     "errors": [],
-    "startedAt": "2026-10-12T11:32:35.498Z",
+    "startedAt": "2026-10-13T07:41:30.445Z",
     "pointerMode": "isolated Electron pointer events and simulated global coordinates",
     "runtime": {
-      "appVersion": "0.1.0",
+      "appVersion": "0.1.1",
       "electron": "44.7.0",
       "displays": [
         {
@@ -106,7 +111,7 @@
       "windowsVersion": "10.0.26200"
     },
     "ok": true,
-    "finishedAt": "2026-10-12T11:32:51.217Z"
+    "finishedAt": "2026-10-13T07:41:41.891Z"
   },
   "nativePointerBeforeSizeChange": {
     "ok": true,
@@ -116,9 +121,15 @@
     "note": "Real Windows pointer mask, gaze, drag and release succeeded before reducing default size; final 112px source and package were checked with isolated Electron input and simulated global coordinates to avoid interfering with the user."
   },
   "archive": {
-    "path": "dist/Usagi-Desktop-0.1.0-Windows-x64.zip",
-    "bytes": 156537880,
-    "sha256": "41e2618662b02a5f9b341d2f23b4e2050b9a0bc28856d18a22dc8c2ba2b46e36"
+    "path": "dist/Usagi-Desktop-0.1.1-Windows-x64.zip",
+    "bytes": 156538257,
+    "sha256": "adeb5334070fb845249d292b68ee5a9551061a96be035ad01ffada78e4a3c2aa",
+    "bundleIntegrity": {
+      "MatchesTestedBundle": true,
+      "BundleSHA256": "40462996B5052AB60E4DBECD428A00262E2228622FC23D99A730F44EC52F7308",
+      "Bytes": 3427857,
+      "Entries": 74
+    }
   },
   "limitations": [
     "No Live2D layered source, model or editable motion project yet.",
@@ -175,5 +186,20 @@
     "packagedVerified": true,
     "checkedAt": "2026-10-13T07:09:07.965Z",
     "desktopWidthDIP": 112
+  },
+  "tailAndDragUpdate": {
+    "date": "2026-10-13",
+    "diagnosis": "Original left-run fifth frame (row 2, column 4) has a detached 296-pixel alpha>0 outline fragment with a one-pixel transparent gap; both directions have eight frames.",
+    "correction": "Render every left-running frame as a horizontal reflection of the complete right-running frame, including alpha hit detection; original sprite assets unchanged.",
+    "manualDrag": "Horizontal cursor deltas choose left/right run, preserving animation phase when reversing. No horizontal movement for 120 ms returns to idle. Native dragging owns position. Release restores grounded rest and autonomous roaming when enabled.",
+    "manualDragWhilePaused": true,
+    "verification": {
+      "unitTestsPassed": 30,
+      "mirroredFramesRGBA": 8,
+      "sourceRealWindowsPointer": true,
+      "packagedChecks": 11,
+      "defaultWidthDIP": 112
+    },
+    "sourcePNG": "4addfb7528fc8ccec731b3ae62a73aa3d501680763815884bd95ce36aa7e3b22"
   }
 }

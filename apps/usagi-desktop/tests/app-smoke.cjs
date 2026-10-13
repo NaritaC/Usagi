@@ -100,10 +100,35 @@ function check(name){report.checks.push(name);process.stdout.write(`PASS ${name}
   await waitFor(page,()=>document.getElementById('pet').dataset.state==='jumping');
   await waitFor(page,()=>document.getElementById('pet').dataset.state==='idle');
   check('native action IPC plays and recovers from a complete jump');
+  const mirroredFrames=await page.evaluate(()=>{
+    const canvas=document.getElementById('pet'),ctx=canvas.getContext('2d');
+    for(let column=0;column<8;column++) {
+      draw({state:'running-right',row:1,column});
+      const right=ctx.getImageData(0,0,192,208).data;
+      draw({state:'running-left',row:2,column});
+      const left=ctx.getImageData(0,0,192,208).data;
+      for(let y=0;y<208;y++)for(let x=0;x<192;x++)for(let channel=0;channel<4;channel++) {
+        if(left[(y*192+x)*4+channel]!==right[(y*192+191-x)*4+channel]) return {ok:false,column,x,y,channel};
+      }
+    }
+    return {ok:true,frames:8};
+  });
+  assert.equal(mirroredFrames.ok,true,JSON.stringify(mirroredFrames));
+  check('all eight left-running frames exactly mirror the complete right-running character');
+  await page.waitForTimeout(40);
   s=await state(page);
   const start={x:s.bounds.x+opaque.x*s.settings.scale,y:s.bounds.y+opaque.y*s.settings.scale};
   await move(start);
   await waitFor(page,async()=> (await window.usagiDesktop.getState()).interactive===true);
+  // A real Windows input helper may return after the 120 ms stop delay.
+  // Record rendered states during the move, rather than sampling only afterward.
+  await page.evaluate(()=>{
+    window.__usagiDragStates=new Set();
+    window.__usagiDragObserver=new MutationObserver(()=>{
+      window.__usagiDragStates.add(document.getElementById('pet').dataset.state);
+    });
+    window.__usagiDragObserver.observe(document.getElementById('pet'),{attributes:true,attributeFilter:['data-state']});
+  });
   if(isolatedInput) await page.evaluate(()=>{window.usagiDesktop.setHit(true);window.usagiDesktop.beginDrag();});
   else {await move(start,'down');held=true;}
   await page.waitForTimeout(120);
@@ -111,11 +136,19 @@ function check(name){report.checks.push(name);process.stdout.write(`PASS ${name}
   await move(destination);
   await waitFor(page,async()=> (await window.usagiDesktop.getState()).dragging===true);
   await move({x:destination.x-45,y:destination.y-40});
-  await page.waitForTimeout(120);
+  await waitFor(page,()=>window.__usagiDragStates.has('running-left'),undefined,1000);
+  await waitFor(page,async limit=>(await window.usagiDesktop.getState()).bounds.y<limit,s.bounds.y-30,1000);
   const during=await state(page);
   assert.ok(during.bounds.y<s.bounds.y-30);
+  await page.evaluate(()=>window.__usagiDragStates.clear());
+  await move({x:destination.x-5,y:destination.y-40});
+  await waitFor(page,()=>window.__usagiDragStates.has('running-right'),undefined,1000);
+  await page.waitForTimeout(160);
+  assert.equal(await page.locator('#pet').getAttribute('data-state'),'idle');
+  check('manual drag follows left and right input and returns to idle when the pointer stops');
+  await page.evaluate(()=>window.__usagiDragObserver.disconnect());
   if(isolatedInput) await page.evaluate(()=>window.usagiDesktop.endDrag());
-  else {await move({x:destination.x-45,y:destination.y-40},'up');held=false;}
+  else {await move({x:destination.x-5,y:destination.y-40},'up');held=false;}
   await waitFor(page,async()=> (await window.usagiDesktop.getState()).dragging===false);
   const dropped=await state(page);
   assert.ok(Math.abs(dropped.bounds.y+194*dropped.settings.scale-dropped.workArea.y-dropped.workArea.height)<=1);

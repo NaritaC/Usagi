@@ -9,17 +9,25 @@ const atlas = new Image();
 const GROUND_Y = 194;
 let snapshot, ready = false, lastTime = null, pixels, lastHit = null, press = null;
 let moveElapsed = 0, pendingMove = 0, lastFrameKey = '';
+let pendingDragDx = 0;
 function frameOffset(row) {return GROUND_Y - assets.rows[row].groundY;}
 function draw(frame) {
-  const key = `${frame.row}:${frame.column}`;
+  const mirrored=frame.state==='running-left';
+  const sourceRow=mirrored ? core.ANIMATIONS['running-right'].row : frame.row;
+  const key = `${sourceRow}:${frame.column}:${mirrored}`;
+  canvas.dataset.row = String(frame.row);
+  canvas.dataset.sourceRow = String(sourceRow);
+  canvas.dataset.mirrored = String(mirrored);
+  canvas.dataset.column = String(frame.column);
+  canvas.dataset.state = frame.state;
   if (key === lastFrameKey) return;
   lastFrameKey = key;
   context.clearRect(0,0,192,208);
-  context.drawImage(atlas,frame.column*192,frame.row*208,192,208,0,frameOffset(frame.row),192,208);
+  context.save();
+  if (mirrored) {context.translate(192,0);context.scale(-1,1);}
+  context.drawImage(atlas,frame.column*192,sourceRow*208,192,208,0,frameOffset(sourceRow),192,208);
+  context.restore();
   pixels = context.getImageData(0,0,192,208).data;
-  canvas.dataset.row = String(frame.row);
-  canvas.dataset.column = String(frame.column);
-  canvas.dataset.state = frame.state;
 }
 function pointInPet(cursor) {
   if (!snapshot) return {x:-1,y:-1};
@@ -35,26 +43,30 @@ function updateHit() {
   if (hit !== lastHit) {api.setHit(hit);lastHit=hit;}
 }
 function regionAt(point) {
-  const cell = assets.cells.find(cell => cell.row === Number(canvas.dataset.row) && cell.column === Number(canvas.dataset.column));
+  const cell = assets.cells.find(cell => cell.row === Number(canvas.dataset.sourceRow) && cell.column === Number(canvas.dataset.column));
   if (!cell) return 'body';
   const top = cell.bounds.top+frameOffset(cell.row);
   const ratio = (point.y-top)/(cell.bounds.bottom-cell.bounds.top+1);
   return ratio < 0.34 ? 'ear' : ratio < 0.68 ? 'face' : 'body';
 }
 function acceptSnapshot(next) {
+  const previousCursor=snapshot?.cursor;
   snapshot=next;
   if (press && press.dragging) {
     if (next.dragging) press.nativeActive=true;
     else if (press.nativeActive) release(null,true);
   }
   controller.updateSettings(next.settings);
-  controller.setDragging(next.dragging,performance.now());
+  controller.setDragging(next.dragging || Boolean(press?.dragging),performance.now());
   if (press && !press.dragging && Math.hypot(next.cursor.x-press.origin.x,next.cursor.y-press.origin.y)>5) {
     press.dragging=true;
     controller.setDragging(true,performance.now());
     api.beginDrag();
     canvas.classList.add('grabbed');
   }
+  if (next.dragging || press?.dragging) {
+    if (previousCursor) pendingDragDx+=next.cursor.x-previousCursor.x;
+  } else pendingDragDx=0;
   updateHit();
 }
 api.getState().then(acceptSnapshot);
@@ -71,6 +83,7 @@ function release(event, cancelled=false) {
   if (!press) return;
   const previous=press;
   press=null;
+  pendingDragDx=0;
   if (canvas.hasPointerCapture(previous.pointerId)) canvas.releasePointerCapture(previous.pointerId);
   canvas.classList.remove('grabbed');
   if (previous.dragging) {api.endDrag();controller.setDragging(false,performance.now());}
@@ -104,9 +117,11 @@ function tick(now) {
       cursorDx:(snapshot.cursor.x-b.x-b.width/2)/snapshot.settings.scale,
       cursorDy:(snapshot.cursor.y-b.y-b.height*0.52)/snapshot.settings.scale,
       nearCursor:onDisplay,
+      dragDx:pendingDragDx,
       atLeftEdge:b.x<=w.x+1,
       atRightEdge:b.x+b.width>=w.x+w.width-1
     });
+    pendingDragDx=0;
     draw(frame);
     updateHit();
     if(frame.moving && !press && !snapshot.dragging) {

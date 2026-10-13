@@ -93,16 +93,96 @@ test("pause and dragging never move; clicks cannot interrupt drag", () => {
   assert.equal(pet.step(5000).moving, true);
   pet.setDragging(true, 5100);
   pet.interact("ear", 5200);
-  assert.equal(pet.step(5300).state, "waiting");
+  assert.equal(pet.step(5300).state, "idle");
   assert.equal(pet.step(5300).moving, false);
   pet.updateSettings({ paused: true });
-  assert.deepEqual(pet.step(9000), { state: "idle", row: 0, column: 0, moving: false, speed: 0, done: false });
+  assert.equal(pet.step(9000).state, "idle");
+  assert.equal(pet.step(9000).moving, false);
   pet.updateSettings({ paused: false });
-  assert.equal(pet.step(9001).state, "waiting");
+  assert.equal(pet.step(9001).state, "idle");
   pet.setDragging(false, 9100);
   assert.equal(pet.step(9101).state, "idle");
   pet.updateSettings({ roaming: false });
   assert.equal(pet.step(100000).moving, false);
+});
+
+test("drag animation follows horizontal direction without restarting phase or moving the window", () => {
+  const pet = new PetController({ roaming: false, lookAtCursor: false });
+  pet.setDragging(true, 100);
+  assert.equal(pet.step(110, { dragDx: 2 }).state, "running-right");
+  const forward = pet.step(350, { dragDx: 3 });
+  assert.equal(forward.column, 2);
+  assert.equal(forward.row, 1);
+  const reverse = pet.step(351, { dragDx: -2 });
+  assert.equal(reverse.state, "running-left");
+  assert.equal(reverse.row, 2);
+  assert.equal(reverse.column, forward.column);
+  const next = pet.step(470, { dragDx: -2 });
+  assert.equal(next.column, 3);
+  assert.equal(next.moving, false);
+  assert.equal(next.speed, 0);
+  const switchAgain = pet.step(471, { dragDx: 1 });
+  assert.equal(switchAgain.state, "running-right");
+  assert.equal(switchAgain.column, 3);
+  assert.equal(switchAgain.moving, false);
+});
+
+test("fresh, vertical and stopped drags remain idle; horizontal motion lingers for at most 120 ms", () => {
+  const pet = new PetController({ roaming: false });
+  pet.setDragging(true, 100);
+  assert.equal(pet.step(100).state, "idle");
+  assert.equal(pet.step(105, { dragDx: 0 }).state, "idle");
+  assert.equal(pet.step(110, { dragDx: 1 }).state, "running-right");
+  assert.equal(pet.step(230, { dragDx: 0.99 }).state, "running-right");
+  assert.equal(pet.step(231, { dragDx: -0.99 }).state, "idle");
+  assert.equal(pet.step(1000, { dragDx: NaN }).state, "idle");
+  assert.equal(pet.step(1001, { dragDx: -1 }).state, "running-left");
+});
+
+test("turning roaming off preserves manual dragging but prevents subsequent autonomous motion", () => {
+  const pet = new PetController({ random: () => 0 });
+  assert.equal(pet.step(5000).moving, true);
+  pet.setDragging(true, 5100);
+  pet.updateSettings({ roaming: false });
+  const drag = pet.step(5200, { dragDx: 4 });
+  assert.equal(drag.state, "running-right");
+  assert.equal(drag.moving, false);
+  assert.equal(drag.speed, 0);
+  pet.setDragging(false, 5300);
+  assert.equal(pet.step(100000).state, "idle");
+});
+
+test("paused pets still animate manual dragging and pause toggles retain its frame phase", () => {
+  const pet = new PetController({ paused: true });
+  pet.setDragging(true, 200);
+  assert.equal(pet.step(250, { dragDx: -1 }).state, "running-left");
+  const forward = pet.step(490, { dragDx: 2 });
+  assert.equal(forward.state, "running-right");
+  assert.equal(forward.column, 2);
+  pet.updateSettings({ paused: false });
+  const reverse = pet.step(510, { dragDx: -2 });
+  assert.equal(reverse.column, 2);
+  pet.updateSettings({ paused: true });
+  assert.equal(pet.step(511, { dragDx: -1 }).column, 2);
+  pet.setDragging(false, 600);
+  assert.deepEqual(pet.step(601), { state: "idle", row: 0, column: 0, moving: false, speed: 0, done: false });
+});
+
+test("release resets direction, rests for the normal interval, then restores autonomous roaming", () => {
+  for (const sample of [0, 1]) {
+    const pet = new PetController({ random: () => sample, lookAtCursor: false });
+    pet.setDragging(true, 100);
+    assert.equal(pet.step(150, { dragDx: -3 }).state, "running-left");
+    pet.setDragging(false, 200);
+    assert.equal(pet.step(200).state, "idle");
+    const rest = sample === 0 ? 5000 : 12000;
+    assert.equal(pet.step(200 + rest - 1).moving, false);
+    const resumed = pet.step(200 + rest);
+    assert.equal(resumed.moving, true);
+    assert.equal(Math.abs(resumed.speed), 45);
+    pet.setDragging(true, 200 + rest + 10);
+    assert.equal(pet.step(200 + rest + 11).state, "idle");
+  }
 });
 
 test("repeated clicks preserve a whole action and retain only the latest next action", () => {
