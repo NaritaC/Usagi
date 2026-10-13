@@ -86,25 +86,59 @@ const manifest = {
 };
 
 function iconPng(size) {
+  // App icons use a full badge, independent of the transparent pet canvas.
+  const samples = 4;
+  const resolution = size * samples;
+  const working = new PNG({ width: resolution, height: resolution });
   const image = new PNG({ width: size, height: size });
-  const scale = size / Math.max(WIDTH, HEIGHT);
-  const drawWidth = Math.round(WIDTH * scale);
-  const drawHeight = Math.round(HEIGHT * scale);
-  const offsetX = Math.floor((size - drawWidth) / 2);
-  const offsetY = Math.floor((size - drawHeight) / 2);
-  for (let y = 0; y < drawHeight; y++) {
-    for (let x = 0; x < drawWidth; x++) {
-      const sourceX = Math.min(WIDTH - 1, Math.floor(x / scale));
-      const sourceY = Math.min(HEIGHT - 1, Math.floor(y / scale));
+  const bounds = cells.find(cell => cell.row === 0 && cell.column === 0).bounds;
+  const cropWidth = bounds.right - bounds.left + 1;
+  const cropHeight = bounds.bottom - bounds.top + 1;
+  const scale = resolution * 0.86 / cropHeight;
+  const drawWidth = cropWidth * scale;
+  const offsetX = (resolution - drawWidth) / 2;
+  const offsetY = resolution * 0.07;
+  const radius = resolution * 0.46;
+  const center = resolution / 2;
+  for (let y = 0; y < resolution; y++) {
+    for (let x = 0; x < resolution; x++) {
+      const to = (y * resolution + x) * 4;
+      if (Math.hypot(x + 0.5 - center, y + 0.5 - center) <= radius) {
+        working.data.set([243,200,67,255], to);
+      }
+      const sourceX = Math.floor((x + 0.5 - offsetX) / scale) + bounds.left;
+      const sourceY = Math.floor((y + 0.5 - offsetY) / scale) + bounds.top;
+      if (sourceX < bounds.left || sourceX > bounds.right || sourceY < bounds.top || sourceY > bounds.bottom) continue;
       const from = (sourceY * atlas.width + sourceX) * 4;
-      const to = ((y + offsetY) * size + x + offsetX) * 4;
-      atlas.data.copy(image.data, to, from, from + 4);
+      const sourceAlpha = atlas.data[from + 3] / 255;
+      const targetAlpha = working.data[to + 3] / 255;
+      const combinedAlpha = sourceAlpha + targetAlpha * (1 - sourceAlpha);
+      if (!combinedAlpha) continue;
+      for (let channel = 0; channel < 3; channel++) {
+        working.data[to + channel] = Math.round((atlas.data[from + channel] * sourceAlpha + working.data[to + channel] * targetAlpha * (1 - sourceAlpha)) / combinedAlpha);
+      }
+      working.data[to + 3] = Math.round(combinedAlpha * 255);
+    }
+  }
+  for (let y = 0; y < size; y++) {
+    for (let x = 0; x < size; x++) {
+      const total = [0,0,0,0];
+      for (let dy = 0; dy < samples; dy++) for (let dx = 0; dx < samples; dx++) {
+        const from = (((y * samples + dy) * resolution) + x * samples + dx) * 4;
+        const alpha = working.data[from + 3];
+        total[3] += alpha;
+        for (let channel = 0; channel < 3; channel++) total[channel] += working.data[from + channel] * alpha;
+      }
+      const to = (y * size + x) * 4;
+      if (!total[3]) continue;
+      for (let channel = 0; channel < 3; channel++) image.data[to + channel] = Math.round(total[channel] / total[3]);
+      image.data[to + 3] = Math.round(total[3] / (samples * samples));
     }
   }
   return PNG.sync.write(image);
 }
 
-const iconSizes = [16, 32, 48, 256];
+const iconSizes = [16, 20, 24, 32, 40, 48, 64, 128, 256];
 const iconImages = iconSizes.map(iconPng);
 const icoHeader = Buffer.alloc(6 + 16 * iconImages.length);
 icoHeader.writeUInt16LE(1, 2);
@@ -124,7 +158,7 @@ iconImages.forEach((buffer, index) => {
 fs.mkdirSync(assetRoot, { recursive: true });
 fs.writeFileSync(path.join(assetRoot, "spritesheet.webp"), buffers.webp);
 fs.writeFileSync(path.join(assetRoot, "spritesheet.png"), buffers.png);
-fs.writeFileSync(path.join(assetRoot, "icon.png"), iconImages[3]);
+fs.writeFileSync(path.join(assetRoot, "icon.png"), iconImages[iconImages.length - 1]);
 fs.writeFileSync(path.join(assetRoot, "icon.ico"), Buffer.concat([icoHeader, ...iconImages]));
 fs.writeFileSync(path.join(assetRoot, "asset-manifest.json"), JSON.stringify(manifest, null, 2) + "\n");
 fs.writeFileSync(path.join(assetRoot, "asset-manifest.js"), "window.UsagiAssets = " + JSON.stringify(manifest) + ";\n");

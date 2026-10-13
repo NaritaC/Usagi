@@ -1,6 +1,6 @@
 'use strict';
 
-const { app, BrowserWindow, Menu, Tray, ipcMain, screen, nativeImage } = require('electron');
+const { app, BrowserWindow, Menu, Tray, ipcMain, screen } = require('electron');
 const fs = require('node:fs');
 const path = require('node:path');
 const { pathToFileURL } = require('node:url');
@@ -10,6 +10,7 @@ const { SettingsStore } = require('./settings.cjs');
 const PET_FILE = path.join(__dirname, 'pet.html');
 const SETTINGS_FILE = path.join(__dirname, 'settings.html');
 const PRELOAD_FILE = path.join(__dirname, 'preload.cjs');
+const APP_ICON = path.join(__dirname, '..', 'assets', 'icon.ico');
 const ACTIONS = Object.freeze({
   idle: '安静站立',
   'running-right': '向右小跑',
@@ -176,6 +177,7 @@ function openSettings() {
   settingsWindow = new BrowserWindow({
     width: 520, height: 780, minWidth: 470, minHeight: 620,
     title: '乌萨奇 · 设置', show: false, autoHideMenuBar: true,
+    icon: APP_ICON,
     backgroundColor: '#fffaf0',
     webPreferences: { preload: PRELOAD_FILE, contextIsolation: true, nodeIntegration: false, sandbox: true },
   });
@@ -267,6 +269,7 @@ async function createPet() {
   motionX = bounds.x;
   petWindow = new BrowserWindow({
     ...bounds, title: '乌萨奇桌宠', transparent: true, frame: false,
+    icon: APP_ICON,
     resizable: false, movable: false, minimizable: false, maximizable: false,
     fullscreenable: false, focusable: false, skipTaskbar: true, show: false,
     hasShadow: false, alwaysOnTop: settings().alwaysOnTop,
@@ -286,8 +289,7 @@ async function createPet() {
     if (!quitting) app.quit();
   });
   registerIpc();
-  const icon = nativeImage.createFromPath(path.join(__dirname, '..', 'assets', 'icon.png'));
-  tray = new Tray(icon.isEmpty() ? nativeImage.createEmpty() : icon.resize({ width: 20, height: 20 }));
+  tray = new Tray(APP_ICON);
   tray.setToolTip('乌萨奇桌宠');
   tray.on('double-click', openSettings);
   refreshTray();

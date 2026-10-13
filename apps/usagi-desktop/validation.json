@@ -12,7 +12,7 @@
     ]
   },
   "unitTests": {
-    "passed": 22,
+    "passed": 25,
     "failed": 0,
     "coverage": [
       "grounding and resizing",
@@ -20,7 +20,8 @@
       "settings validation, persistence, corruption backup and legacy size migration",
       "16-direction gaze and hysteresis",
       "animation timing, interruption queues, pause and drag priority",
-      "one-hour deterministic state simulation"
+      "one-hour deterministic state simulation",
+      "application icon occupancy, DPI image layers, and original atlas preservation"
     ]
   },
   "sourceAppSmoke": {
@@ -116,8 +117,8 @@
   },
   "archive": {
     "path": "dist/Usagi-Desktop-0.1.0-Windows-x64.zip",
-    "bytes": 156412803,
-    "sha256": "81763ea473431ebe88696cc0df43b57341e9b7f4710f08b39fccad0df0f10d29"
+    "bytes": 156537880,
+    "sha256": "41e2618662b02a5f9b341d2f23b4e2050b9a0bc28856d18a22dc8c2ba2b46e36"
   },
   "limitations": [
     "No Live2D layered source, model or editable motion project yet.",
@@ -150,5 +151,29 @@
       "packaged": true,
       "checkedAt": "2026-10-13T06:16:36.957Z"
     }
+  },
+  "applicationIconUpdate": {
+    "date": "2026-10-13",
+    "style": "full warm-yellow circular badge with the original Usagi",
+    "icoSizes": [
+      16,
+      20,
+      24,
+      32,
+      40,
+      48,
+      64,
+      128,
+      256
+    ],
+    "nativeWindowsIcon": {
+      "pixelWidth": 32,
+      "pixelHeight": 32,
+      "visibleWidthRatio": 0.9375,
+      "visibleHeightRatio": 0.9375
+    },
+    "packagedVerified": true,
+    "checkedAt": "2026-10-13T07:09:07.965Z",
+    "desktopWidthDIP": 112
   }
 }
