@@ -116,13 +116,33 @@
   },
   "archive": {
     "path": "dist/Usagi-Desktop-0.1.0-Windows-x64.zip",
-    "bytes": 156412743,
-    "sha256": "10360a3105fea28d9f7d2b21f12eb40004025dc4199b7eb87e33664073943870"
+    "bytes": 156412770,
+    "sha256": "ee98537c5910135dd5b84cc00294e4259e7880f224c4a2465df4e74b7e137f6f"
   },
   "limitations": [
     "No Live2D layered source, model or editable motion project yet.",
     "Gaze switches whole existing direction sprites; no independent eye/head parameters.",
     "No audio, complete run-fall/staff/shape-change choreography yet.",
     "Multiple physical monitors, taskbar auto-hide and side taskbars were not all exercised live."
-  ]
+  ],
+  "settingsPreviewUpdate": {
+    "date": "2026-10-13",
+    "previousWidthCSS": 112,
+    "widthCSS": 136,
+    "desktopWidthDIP": 112,
+    "verification": {
+      "ok": true,
+      "desktopWidth": 112,
+      "settingsPreview": {
+        "width": 136,
+        "height": 147.328125,
+        "canvasLeft": 319.5,
+        "canvasBottom": 218.828125,
+        "titleRight": 236,
+        "portraitBottom": 227.5
+      },
+      "packaged": true,
+      "checkedAt": "2026-10-13T06:09:35.028Z"
+    }
+  }
 }
